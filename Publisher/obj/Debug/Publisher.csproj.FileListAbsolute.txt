@@ -230,7 +230,6 @@ E:\OfficeWork\ResearchNServiceBus\Research-NServiceBus-Publisher\Publisher\bin\N
 E:\OfficeWork\ResearchNServiceBus\Research-NServiceBus-Publisher\Publisher\bin\NServiceBus.Persistence.Sql.dll
 E:\OfficeWork\ResearchNServiceBus\Research-NServiceBus-Publisher\Publisher\bin\System.Web.Optimization.dll
 E:\OfficeWork\ResearchNServiceBus\Research-NServiceBus-Publisher\Publisher\bin\WebGrease.dll
-E:\OfficeWork\ResearchNServiceBus\Research-NServiceBus-Publisher\Publisher\bin\Messages.pdb
 E:\OfficeWork\ResearchNServiceBus\Research-NServiceBus-Publisher\Publisher\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
 E:\OfficeWork\ResearchNServiceBus\Research-NServiceBus-Publisher\Publisher\bin\Newtonsoft.Json.xml
 E:\OfficeWork\ResearchNServiceBus\Research-NServiceBus-Publisher\Publisher\bin\NServiceBus.Core.pdb
