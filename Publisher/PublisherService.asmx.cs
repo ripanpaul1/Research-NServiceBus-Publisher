@@ -6,6 +6,7 @@ using Messages;
 using NServiceBus.Persistence;
 using NServiceBus.Persistence.Sql;
 using System.Data.SqlClient;
+using System.Configuration;
 
 namespace Publisher
 {
@@ -46,15 +47,14 @@ namespace Publisher
 
             // Persistence
             var persistence = endpointConfiguration.UsePersistence<SqlPersistence>();
-            var connection = @"Data Source=RIPANPC\SqlExpress;Initial Catalog=TestMsmqDB;UID=sa;Password=Password123;Integrated Security=True";
             persistence.SqlVariant(SqlVariant.MsSqlServer);
             persistence.ConnectionBuilder(
                 connectionBuilder: () =>
                 {
-                    return new SqlConnection(connection);
+                    return new SqlConnection(ConfigurationManager.ConnectionStrings["SqlPersistence"].ConnectionString);
                 });
             var subscriptions = persistence.SubscriptionSettings();
-            subscriptions.CacheFor(TimeSpan.FromDays(1));
+            subscriptions.CacheFor(TimeSpan.FromDays(Convert.ToDouble(ConfigurationManager.AppSettings["Persistence.Subscriptions.CacheFor"])));
 
             var endpointInstance = await Endpoint.Start(endpointConfiguration)
                 .ConfigureAwait(false);

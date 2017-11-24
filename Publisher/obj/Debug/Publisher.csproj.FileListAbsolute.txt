@@ -244,7 +244,7 @@ E:\OfficeWork\ResearchNServiceBus\Research-NServiceBus-Publisher\Publisher\bin\M
 E:\OfficeWork\ResearchNServiceBus\Research-NServiceBus-Publisher\Publisher\bin\Microsoft.AI.ServerTelemetryChannel.xml
 E:\OfficeWork\ResearchNServiceBus\Research-NServiceBus-Publisher\Publisher\bin\Microsoft.AI.WindowsServer.xml
 E:\OfficeWork\ResearchNServiceBus\Research-NServiceBus-Publisher\Publisher\bin\Microsoft.AI.Web.xml
-E:\OfficeWork\ResearchNServiceBus\Research-NServiceBus-Publisher\Publisher\obj\Debug\Publisher.csprojResolveAssemblyReference.cache
 E:\OfficeWork\ResearchNServiceBus\Research-NServiceBus-Publisher\Publisher\obj\Debug\Publisher.csproj.CoreCompileInputs.cache
 E:\OfficeWork\ResearchNServiceBus\Research-NServiceBus-Publisher\Publisher\obj\Debug\Publisher.dll
 E:\OfficeWork\ResearchNServiceBus\Research-NServiceBus-Publisher\Publisher\obj\Debug\Publisher.pdb
+E:\OfficeWork\ResearchNServiceBus\Research-NServiceBus-Publisher\Publisher\obj\Debug\Publisher.csprojResolveAssemblyReference.cache
