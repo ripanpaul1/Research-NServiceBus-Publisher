@@ -24,7 +24,7 @@ namespace Lateetud.NServiceBus
 
         public async Task MessagePublishedToBue(string message)
         {
-            object rowmessage = new RowMessage
+            object rowmessage = new TestMessage
             {
                 Message = message
             };

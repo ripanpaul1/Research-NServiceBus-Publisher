@@ -26,7 +26,10 @@ namespace Lateetud.NServiceBus
         {
             try
             {
-                MessagePublishedToBus(message, "testqueue.Publisher").GetAwaiter().GetResult();
+                Global.MessageSession.Publish(new TestMessage
+                {
+                    Message = message
+                }).GetAwaiter().GetResult();
                 return "Message published to bus";
             }
             catch (Exception ex)
@@ -35,40 +38,7 @@ namespace Lateetud.NServiceBus
             }
         }
 
-        // MessagePublishedToBus
-        static async Task MessagePublishedToBus(string message, string EndpointName)
-        {
-            var endpointConfiguration = new EndpointConfiguration(EndpointName);
-            endpointConfiguration.EnableInstallers();
-            endpointConfiguration.SendFailedMessagesTo("error");
-
-            // Transport
-            endpointConfiguration.UseTransport<MsmqTransport>();
-
-            // Persistence
-            var persistence = endpointConfiguration.UsePersistence<SqlPersistence>();
-            persistence.SqlVariant(SqlVariant.MsSqlServer);
-            persistence.ConnectionBuilder(
-                connectionBuilder: () =>
-                {
-                    return new SqlConnection(ConfigurationManager.ConnectionStrings["SqlPersistence"].ConnectionString);
-                });
-            var subscriptions = persistence.SubscriptionSettings();
-            subscriptions.CacheFor(TimeSpan.FromDays(Convert.ToDouble(ConfigurationManager.AppSettings["Persistence.Subscriptions.CacheFor"])));
-
-            var endpointInstance = await Endpoint.Start(endpointConfiguration)
-                .ConfigureAwait(false);
-
-            var rowmessage = new RowMessage
-            {
-                Message = message
-            };
-            await endpointInstance.Publish(rowmessage)
-                .ConfigureAwait(false);
-
-            await endpointInstance.Stop()
-                .ConfigureAwait(false);
-        }
+        
 
     }
 }
