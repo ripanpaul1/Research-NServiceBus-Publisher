@@ -182,6 +182,7 @@ E:\OfficeWork\ResearchNServiceBus\Research.Lateetud.NServiceBus\Lateetud.NServic
 E:\OfficeWork\ResearchNServiceBus\Research.Lateetud.NServiceBus\Lateetud.NServiceBus\bin\Microsoft.AI.ServerTelemetryChannel.xml
 E:\OfficeWork\ResearchNServiceBus\Research.Lateetud.NServiceBus\Lateetud.NServiceBus\bin\Microsoft.AI.WindowsServer.xml
 E:\OfficeWork\ResearchNServiceBus\Research.Lateetud.NServiceBus\Lateetud.NServiceBus\bin\Microsoft.AI.Web.xml
+E:\OfficeWork\ResearchNServiceBus\Research.Lateetud.NServiceBus\Lateetud.NServiceBus\obj\Debug\Lateetud.NServiceBus.csprojResolveAssemblyReference.cache
 E:\OfficeWork\ResearchNServiceBus\Research.Lateetud.NServiceBus\Lateetud.NServiceBus\obj\Debug\Lateetud.NServiceBus.csproj.CoreCompileInputs.cache
 E:\OfficeWork\ResearchNServiceBus\Research.Lateetud.NServiceBus\Lateetud.NServiceBus\obj\Debug\Lateetud.NServiceBus.dll
 E:\OfficeWork\ResearchNServiceBus\Research.Lateetud.NServiceBus\Lateetud.NServiceBus\obj\Debug\Lateetud.NServiceBus.pdb
