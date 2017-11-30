@@ -1,12 +1,9 @@
 ﻿using System;
 using System.Threading.Tasks;
 using System.Web.Services;
-using System.Data.SqlClient;
 using System.Configuration;
 using NServiceBus;
-using NServiceBus.Persistence.Sql;
 using Lateetud.NServiceBus.Common;
-using System.Collections.Generic;
 
 namespace Lateetud.NServiceBus.api
 {
@@ -20,24 +17,31 @@ namespace Lateetud.NServiceBus.api
     // [System.Web.Script.Services.ScriptService]
     public class TestService : System.Web.Services.WebService
     {
+        MsmqSqlDBConfiguration msmqsqldbconfig = new MsmqSqlDBConfiguration(ConfigurationManager.ConnectionStrings["SqlPersistence"].ConnectionString);
+
         [WebMethod]
-        public string MyPublisher(string message)
+        public string PublishToQueue1(string message)
         {
-            MsmqSqlDBConfiguration msmqsqldbconfig = new MsmqSqlDBConfiguration(ConfigurationManager.ConnectionStrings["SqlPersistence"].ConnectionString);
-            var endpointConfiguration = msmqsqldbconfig.ConfigureEndpoint("testqueue.Publisher");
+            var endpointConfiguration = msmqsqldbconfig.ConfigureEndpoint("queue1");
             var testmessage = new TestMessage { Message = message };
             return msmqsqldbconfig.PublishedToBus(endpointConfiguration, testmessage);
         }
 
         [WebMethod]
-        public string MySubscriber()
+        public string PublishToQueue2(string message)
         {
-            MsmqSqlDBConfiguration msmqsqldbconfig = new MsmqSqlDBConfiguration(ConfigurationManager.ConnectionStrings["SqlPersistence"].ConnectionString);
-            List<PublisherEndpoints> publisherEndpoints = new List<PublisherEndpoints>();
-            publisherEndpoints.Add(new PublisherEndpoints(endpointName: "testqueue.Publisher", messageType: typeof(TestMessage)));
-            var endpointConfiguration = msmqsqldbconfig.ConfigureEndpoint("testqueue.Subscriber", publisherEndpoints);
-            msmqsqldbconfig.StartEndpoint(endpointConfiguration).GetAwaiter().GetResult();
-            return "Endpoint: testqueue.Subscriber is started";
+            var endpointConfiguration = msmqsqldbconfig.ConfigureEndpoint("queue2");
+            var testmessage = new TestMessage { Message = message };
+            return msmqsqldbconfig.PublishedToBus(endpointConfiguration, testmessage);
         }
+
+        [WebMethod]
+        public string PublishToQueue3(string message)
+        {
+            var endpointConfiguration = msmqsqldbconfig.ConfigureEndpoint("queue3");
+            var testmessage = new TestMessage { Message = message };
+            return msmqsqldbconfig.PublishedToBus(endpointConfiguration, testmessage);
+        }
+
     }
 }
