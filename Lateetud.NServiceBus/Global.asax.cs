@@ -17,25 +17,6 @@ namespace Lateetud.NServiceBus
             // Code that runs on application startup
             RouteConfig.RegisterRoutes(RouteTable.Routes);
             BundleConfig.RegisterBundles(BundleTable.Bundles);
-
-
-
-            MsmqSqlDBConfiguration msmqsqldbconfig = new MsmqSqlDBConfiguration(ConfigurationManager.ConnectionStrings["SqlPersistence"].ConnectionString);
-
-
-            // if queue does not exists, created & got pipeline
-            var endpointConfiguration = msmqsqldbconfig.ConfigureEndpoint("queue1");
-            msmqsqldbconfig.StartEndpoint(endpointConfiguration).GetAwaiter().GetResult();
-
-            // if queue does not exists, created & got pipeline
-            var endpointConfiguration = msmqsqldbconfig.ConfigureEndpoint("queue2");
-            msmqsqldbconfig.StartEndpoint(endpointConfiguration).GetAwaiter().GetResult();
-
-            // if queue does not exists, created & got pipeline
-            var endpointConfiguration = msmqsqldbconfig.ConfigureEndpoint("queue3");
-            msmqsqldbconfig.StartEndpoint(endpointConfiguration).GetAwaiter().GetResult();
-            
-
         }
     }
 }
