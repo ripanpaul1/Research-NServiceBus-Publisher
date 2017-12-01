@@ -22,8 +22,7 @@ namespace Lateetud.NServiceBus.api
         public string CreatePublisherQueues()
         {
             var endpointConfiguration = msmqsqldbconfig.ConfigureEndpoint("NEC.GeneralAgent.Publisher");
-            msmqsqldbconfig.StartEndpoint(endpointConfiguration).GetAwaiter().GetResult();
-
+            msmqsqldbconfig.CreateEndpointInitializePipeline(endpointConfiguration).GetAwaiter().GetResult();
             return "Created publishers queues";
         }
 
