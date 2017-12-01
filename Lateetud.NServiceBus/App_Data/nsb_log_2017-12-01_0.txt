@@ -151,3 +151,604 @@ net localgroup "Performance Monitor Users" "RIPANPC\Dell" /add
 2017-12-01 14:08:52.896 INFO  NServiceBus.PerformanceCounterHelper NServiceBus performance counter for '# of msgs successfully processed / sec' is not set up correctly. To rectify this problem, consult the NServiceBus performance counters documentation.
 2017-12-01 14:08:52.898 INFO  NServiceBus.PerformanceCounterHelper NServiceBus performance counter for '# of msgs failures / sec' is not set up correctly. To rectify this problem, consult the NServiceBus performance counters documentation.
 2017-12-01 14:08:52.918 INFO  NServiceBus.Validations You are using a basic message to do pub/sub, consider implementing the more specific ICommand and IEvent interfaces to help NServiceBus to enforce messaging best practices for you.
+2017-12-01 18:01:10.882 INFO  DefaultFactory Logging to 'E:\OfficeWork\ResearchNServiceBus\Research.Lateetud.NServiceBus\Lateetud.NServiceBus\App_Data\' with level Info
+2017-12-01 18:01:11.065 INFO  NServiceBus.LicenseManager Selected active license from HKEY_LOCAL_MACHINE\SOFTWARE\ParticularSoftware
+License Expiration: 12 December 2017
+
+2017-12-01 18:01:11.197 INFO  NServiceBus.Persistence.Sql.Installer Executing 'E:\OfficeWork\ResearchNServiceBus\Research.Lateetud.NServiceBus\Lateetud.NServiceBus\bin\NServiceBus.Persistence.Sql\MsSqlServer\Subscription_Create.sql'
+2017-12-01 18:01:11.270 INFO  NServiceBus.Persistence.Sql.Installer Executing 'E:\OfficeWork\ResearchNServiceBus\Research.Lateetud.NServiceBus\Lateetud.NServiceBus\bin\NServiceBus.Persistence.Sql\MsSqlServer\Timeout_Create.sql'
+2017-12-01 18:01:12.922 INFO  NServiceBus.PerformanceMonitorUsersInstaller Did not attempt to add user 'RIPANPC\Dell' to group 'Performance Monitor Users' since the process is not running with elevated privileges. Processing will continue. To manually perform this action, run the following command from an admin console:
+net localgroup "Performance Monitor Users" "RIPANPC\Dell" /add
+2017-12-01 18:01:12.981 WARN  NServiceBus.QueuePermissions Queue [private$\error] is running with [Everyone] with AccessRights set to [GenericWrite]. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2017-12-01 18:01:12.983 WARN  NServiceBus.QueuePermissions Queue [private$\error] is running with [NT AUTHORITY\ANONYMOUS LOGON] with AccessRights set to [WriteMessage]. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2017-12-01 18:01:12.990 WARN  NServiceBus.QueuePermissions Queue [private$\NEC.GeneralAgent.Publisher.Timeouts] is running with [Everyone] with AccessRights set to [GenericWrite]. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2017-12-01 18:01:12.994 WARN  NServiceBus.QueuePermissions Queue [private$\NEC.GeneralAgent.Publisher.Timeouts] is running with [NT AUTHORITY\ANONYMOUS LOGON] with AccessRights set to [WriteMessage]. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2017-12-01 18:01:12.997 WARN  NServiceBus.QueuePermissions Queue [private$\NEC.GeneralAgent.Publisher.TimeoutsDispatcher] is running with [Everyone] with AccessRights set to [GenericWrite]. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2017-12-01 18:01:13.000 WARN  NServiceBus.QueuePermissions Queue [private$\NEC.GeneralAgent.Publisher.TimeoutsDispatcher] is running with [NT AUTHORITY\ANONYMOUS LOGON] with AccessRights set to [WriteMessage]. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2017-12-01 18:01:13.004 WARN  NServiceBus.QueuePermissions Queue [private$\NEC.GeneralAgent.Publisher.Retries] is running with [Everyone] with AccessRights set to [GenericWrite]. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2017-12-01 18:01:13.007 WARN  NServiceBus.QueuePermissions Queue [private$\NEC.GeneralAgent.Publisher.Retries] is running with [NT AUTHORITY\ANONYMOUS LOGON] with AccessRights set to [WriteMessage]. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2017-12-01 18:01:13.011 WARN  NServiceBus.QueuePermissions Queue [private$\NEC.GeneralAgent.Publisher] is running with [Everyone] with AccessRights set to [GenericWrite]. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2017-12-01 18:01:13.014 WARN  NServiceBus.QueuePermissions Queue [private$\NEC.GeneralAgent.Publisher] is running with [NT AUTHORITY\ANONYMOUS LOGON] with AccessRights set to [WriteMessage]. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2017-12-01 18:01:13.017 INFO  NServiceBus.PerformanceCounterHelper NServiceBus performance counter for '# of msgs pulled from the input queue /sec' is not set up correctly. To rectify this problem, consult the NServiceBus performance counters documentation.
+2017-12-01 18:01:13.018 INFO  NServiceBus.PerformanceCounterHelper NServiceBus performance counter for '# of msgs successfully processed / sec' is not set up correctly. To rectify this problem, consult the NServiceBus performance counters documentation.
+2017-12-01 18:01:13.020 INFO  NServiceBus.PerformanceCounterHelper NServiceBus performance counter for '# of msgs failures / sec' is not set up correctly. To rectify this problem, consult the NServiceBus performance counters documentation.
+2017-12-01 19:08:27.324 INFO  DefaultFactory Logging to 'E:\OfficeWork\ResearchNServiceBus\Research.Lateetud.NServiceBus\Lateetud.NServiceBus\App_Data\' with level Info
+2017-12-01 19:08:27.499 INFO  NServiceBus.LicenseManager Selected active license from HKEY_LOCAL_MACHINE\SOFTWARE\ParticularSoftware
+License Expiration: 12 December 2017
+
+2017-12-01 19:08:27.570 INFO  NServiceBus.Persistence.Sql.Installer Executing 'E:\OfficeWork\ResearchNServiceBus\Research.Lateetud.NServiceBus\Lateetud.NServiceBus\bin\NServiceBus.Persistence.Sql\MsSqlServer\Subscription_Create.sql'
+2017-12-01 19:08:27.595 INFO  NServiceBus.Persistence.Sql.Installer Executing 'E:\OfficeWork\ResearchNServiceBus\Research.Lateetud.NServiceBus\Lateetud.NServiceBus\bin\NServiceBus.Persistence.Sql\MsSqlServer\Timeout_Create.sql'
+2017-12-01 19:08:27.628 INFO  NServiceBus.PerformanceMonitorUsersInstaller Did not attempt to add user 'RIPANPC\Dell' to group 'Performance Monitor Users' since the process is not running with elevated privileges. Processing will continue. To manually perform this action, run the following command from an admin console:
+net localgroup "Performance Monitor Users" "RIPANPC\Dell" /add
+2017-12-01 19:08:27.686 WARN  NServiceBus.QueuePermissions Queue [private$\error] is running with [Everyone] with AccessRights set to [GenericWrite]. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2017-12-01 19:08:27.688 WARN  NServiceBus.QueuePermissions Queue [private$\error] is running with [NT AUTHORITY\ANONYMOUS LOGON] with AccessRights set to [WriteMessage]. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2017-12-01 19:08:27.699 WARN  NServiceBus.QueuePermissions Queue [private$\NEC.GeneralAgent.Publisher.Timeouts] is running with [Everyone] with AccessRights set to [GenericWrite]. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2017-12-01 19:08:27.703 WARN  NServiceBus.QueuePermissions Queue [private$\NEC.GeneralAgent.Publisher.Timeouts] is running with [NT AUTHORITY\ANONYMOUS LOGON] with AccessRights set to [WriteMessage]. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2017-12-01 19:08:27.709 WARN  NServiceBus.QueuePermissions Queue [private$\NEC.GeneralAgent.Publisher.TimeoutsDispatcher] is running with [Everyone] with AccessRights set to [GenericWrite]. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2017-12-01 19:08:27.713 WARN  NServiceBus.QueuePermissions Queue [private$\NEC.GeneralAgent.Publisher.TimeoutsDispatcher] is running with [NT AUTHORITY\ANONYMOUS LOGON] with AccessRights set to [WriteMessage]. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2017-12-01 19:08:27.718 WARN  NServiceBus.QueuePermissions Queue [private$\NEC.GeneralAgent.Publisher.Retries] is running with [Everyone] with AccessRights set to [GenericWrite]. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2017-12-01 19:08:27.721 WARN  NServiceBus.QueuePermissions Queue [private$\NEC.GeneralAgent.Publisher.Retries] is running with [NT AUTHORITY\ANONYMOUS LOGON] with AccessRights set to [WriteMessage]. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2017-12-01 19:08:27.724 WARN  NServiceBus.QueuePermissions Queue [private$\NEC.GeneralAgent.Publisher] is running with [Everyone] with AccessRights set to [GenericWrite]. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2017-12-01 19:08:27.729 WARN  NServiceBus.QueuePermissions Queue [private$\NEC.GeneralAgent.Publisher] is running with [NT AUTHORITY\ANONYMOUS LOGON] with AccessRights set to [WriteMessage]. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2017-12-01 19:08:27.733 INFO  NServiceBus.PerformanceCounterHelper NServiceBus performance counter for '# of msgs pulled from the input queue /sec' is not set up correctly. To rectify this problem, consult the NServiceBus performance counters documentation.
+2017-12-01 19:08:27.735 INFO  NServiceBus.PerformanceCounterHelper NServiceBus performance counter for '# of msgs successfully processed / sec' is not set up correctly. To rectify this problem, consult the NServiceBus performance counters documentation.
+2017-12-01 19:08:27.736 INFO  NServiceBus.PerformanceCounterHelper NServiceBus performance counter for '# of msgs failures / sec' is not set up correctly. To rectify this problem, consult the NServiceBus performance counters documentation.
+2017-12-01 19:08:27.819 INFO  NServiceBus.LicenseManager Selected active license from HKEY_LOCAL_MACHINE\SOFTWARE\ParticularSoftware
+License Expiration: 12 December 2017
+
+2017-12-01 19:08:28.279 INFO  NServiceBus.Persistence.Sql.Installer Executing 'E:\OfficeWork\ResearchNServiceBus\Research.Lateetud.NServiceBus\Lateetud.NServiceBus\bin\NServiceBus.Persistence.Sql\MsSqlServer\Subscription_Create.sql'
+2017-12-01 19:08:29.275 INFO  NServiceBus.Persistence.Sql.Installer Executing 'E:\OfficeWork\ResearchNServiceBus\Research.Lateetud.NServiceBus\Lateetud.NServiceBus\bin\NServiceBus.Persistence.Sql\MsSqlServer\Timeout_Create.sql'
+2017-12-01 19:08:30.639 INFO  NServiceBus.PerformanceMonitorUsersInstaller Did not attempt to add user 'RIPANPC\Dell' to group 'Performance Monitor Users' since the process is not running with elevated privileges. Processing will continue. To manually perform this action, run the following command from an admin console:
+net localgroup "Performance Monitor Users" "RIPANPC\Dell" /add
+2017-12-01 19:08:30.673 WARN  NServiceBus.QueuePermissions Queue [private$\error] is running with [Everyone] with AccessRights set to [GenericWrite]. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2017-12-01 19:08:30.679 WARN  NServiceBus.QueuePermissions Queue [private$\error] is running with [NT AUTHORITY\ANONYMOUS LOGON] with AccessRights set to [WriteMessage]. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2017-12-01 19:08:30.684 WARN  NServiceBus.QueuePermissions Queue [private$\NEC.GeneralAgent.Result.Publisher.Timeouts] is running with [Everyone] with AccessRights set to [GenericWrite]. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2017-12-01 19:08:30.689 WARN  NServiceBus.QueuePermissions Queue [private$\NEC.GeneralAgent.Result.Publisher.Timeouts] is running with [NT AUTHORITY\ANONYMOUS LOGON] with AccessRights set to [WriteMessage]. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2017-12-01 19:08:30.694 WARN  NServiceBus.QueuePermissions Queue [private$\NEC.GeneralAgent.Result.Publisher.TimeoutsDispatcher] is running with [Everyone] with AccessRights set to [GenericWrite]. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2017-12-01 19:08:30.700 WARN  NServiceBus.QueuePermissions Queue [private$\NEC.GeneralAgent.Result.Publisher.TimeoutsDispatcher] is running with [NT AUTHORITY\ANONYMOUS LOGON] with AccessRights set to [WriteMessage]. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2017-12-01 19:08:30.704 WARN  NServiceBus.QueuePermissions Queue [private$\NEC.GeneralAgent.Result.Publisher.Retries] is running with [Everyone] with AccessRights set to [GenericWrite]. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2017-12-01 19:08:30.708 WARN  NServiceBus.QueuePermissions Queue [private$\NEC.GeneralAgent.Result.Publisher.Retries] is running with [NT AUTHORITY\ANONYMOUS LOGON] with AccessRights set to [WriteMessage]. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2017-12-01 19:08:30.712 WARN  NServiceBus.QueuePermissions Queue [private$\NEC.GeneralAgent.Result.Publisher] is running with [Everyone] with AccessRights set to [GenericWrite]. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2017-12-01 19:08:30.717 WARN  NServiceBus.QueuePermissions Queue [private$\NEC.GeneralAgent.Result.Publisher] is running with [NT AUTHORITY\ANONYMOUS LOGON] with AccessRights set to [WriteMessage]. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2017-12-01 19:08:30.719 INFO  NServiceBus.PerformanceCounterHelper NServiceBus performance counter for '# of msgs pulled from the input queue /sec' is not set up correctly. To rectify this problem, consult the NServiceBus performance counters documentation.
+2017-12-01 19:08:30.721 INFO  NServiceBus.PerformanceCounterHelper NServiceBus performance counter for '# of msgs successfully processed / sec' is not set up correctly. To rectify this problem, consult the NServiceBus performance counters documentation.
+2017-12-01 19:08:30.723 INFO  NServiceBus.PerformanceCounterHelper NServiceBus performance counter for '# of msgs failures / sec' is not set up correctly. To rectify this problem, consult the NServiceBus performance counters documentation.
+2017-12-01 19:08:59.047 WARN  NServiceBus.MessagePump MSMQ receive operation failed
+System.Messaging.MessageQueueException (0x80004005): Queue handle can no longer be used to receive messages because the queue was deleted. The handle should be closed.
+   at System.Messaging.MessageEnumerator.MoveNext(TimeSpan timeout)
+   at NServiceBus.MessagePump.<InnerProcessMessages>d__6.MoveNext() in C:\BuildAgent\work\a93f853f0c1b9532\src\NServiceBus.Core\Transports\Msmq\MessagePump.cs:line 129
+2017-12-01 19:08:59.049 WARN  NServiceBus.RepeatedFailuresOverTimeCircuitBreaker The circuit breaker for MsmqPeek is now in the armed state
+2017-12-01 19:09:00.055 WARN  NServiceBus.MessagePump MSMQ receive operation failed
+System.Messaging.MessageQueueException (0x80004005): Queue handle can no longer be used to receive messages because the queue was deleted. The handle should be closed.
+   at System.Messaging.MessageEnumerator.MoveNext(TimeSpan timeout)
+   at NServiceBus.MessagePump.<InnerProcessMessages>d__6.MoveNext() in C:\BuildAgent\work\a93f853f0c1b9532\src\NServiceBus.Core\Transports\Msmq\MessagePump.cs:line 129
+2017-12-01 19:09:00.673 WARN  NServiceBus.MessagePump MSMQ receive operation failed
+System.Messaging.MessageQueueException (0x80004005): Queue handle can no longer be used to receive messages because the queue was deleted. The handle should be closed.
+   at System.Messaging.MessageEnumerator.MoveNext(TimeSpan timeout)
+   at NServiceBus.MessagePump.<InnerProcessMessages>d__6.MoveNext() in C:\BuildAgent\work\a93f853f0c1b9532\src\NServiceBus.Core\Transports\Msmq\MessagePump.cs:line 129
+2017-12-01 19:09:00.674 WARN  NServiceBus.RepeatedFailuresOverTimeCircuitBreaker The circuit breaker for MsmqPeek is now in the armed state
+2017-12-01 19:09:01.066 WARN  NServiceBus.MessagePump MSMQ receive operation failed
+System.Messaging.MessageQueueException (0x80004005): Queue handle can no longer be used to receive messages because the queue was deleted. The handle should be closed.
+   at System.Messaging.MessageEnumerator.MoveNext(TimeSpan timeout)
+   at NServiceBus.MessagePump.<InnerProcessMessages>d__6.MoveNext() in C:\BuildAgent\work\a93f853f0c1b9532\src\NServiceBus.Core\Transports\Msmq\MessagePump.cs:line 129
+2017-12-01 19:09:01.535 WARN  NServiceBus.MessagePump MSMQ receive operation failed
+System.Messaging.MessageQueueException (0x80004005): Queue handle can no longer be used to receive messages because the queue was deleted. The handle should be closed.
+   at System.Messaging.MessageEnumerator.MoveNext(TimeSpan timeout)
+   at NServiceBus.MessagePump.<InnerProcessMessages>d__6.MoveNext() in C:\BuildAgent\work\a93f853f0c1b9532\src\NServiceBus.Core\Transports\Msmq\MessagePump.cs:line 129
+2017-12-01 19:09:01.536 WARN  NServiceBus.RepeatedFailuresOverTimeCircuitBreaker The circuit breaker for MsmqPeek is now in the armed state
+2017-12-01 19:09:01.677 WARN  NServiceBus.MessagePump MSMQ receive operation failed
+System.Messaging.MessageQueueException (0x80004005): Queue handle can no longer be used to receive messages because the queue was deleted. The handle should be closed.
+   at System.Messaging.MessageEnumerator.MoveNext(TimeSpan timeout)
+   at NServiceBus.MessagePump.<InnerProcessMessages>d__6.MoveNext() in C:\BuildAgent\work\a93f853f0c1b9532\src\NServiceBus.Core\Transports\Msmq\MessagePump.cs:line 129
+2017-12-01 19:09:02.099 WARN  NServiceBus.MessagePump MSMQ receive operation failed
+System.Messaging.MessageQueueException (0x80004005): Queue handle can no longer be used to receive messages because the queue was deleted. The handle should be closed.
+   at System.Messaging.MessageEnumerator.MoveNext(TimeSpan timeout)
+   at NServiceBus.MessagePump.<InnerProcessMessages>d__6.MoveNext() in C:\BuildAgent\work\a93f853f0c1b9532\src\NServiceBus.Core\Transports\Msmq\MessagePump.cs:line 129
+2017-12-01 19:09:02.450 WARN  NServiceBus.MessagePump MSMQ receive operation failed
+System.Messaging.MessageQueueException (0x80004005): Queue handle can no longer be used to receive messages because the queue was deleted. The handle should be closed.
+   at System.Messaging.MessageEnumerator.MoveNext(TimeSpan timeout)
+   at NServiceBus.MessagePump.<InnerProcessMessages>d__6.MoveNext() in C:\BuildAgent\work\a93f853f0c1b9532\src\NServiceBus.Core\Transports\Msmq\MessagePump.cs:line 129
+2017-12-01 19:09:02.451 WARN  NServiceBus.RepeatedFailuresOverTimeCircuitBreaker The circuit breaker for MsmqPeek is now in the armed state
+2017-12-01 19:09:02.551 WARN  NServiceBus.MessagePump MSMQ receive operation failed
+System.Messaging.MessageQueueException (0x80004005): Queue handle can no longer be used to receive messages because the queue was deleted. The handle should be closed.
+   at System.Messaging.MessageEnumerator.MoveNext(TimeSpan timeout)
+   at NServiceBus.MessagePump.<InnerProcessMessages>d__6.MoveNext() in C:\BuildAgent\work\a93f853f0c1b9532\src\NServiceBus.Core\Transports\Msmq\MessagePump.cs:line 129
+2017-12-01 19:09:02.694 WARN  NServiceBus.MessagePump MSMQ receive operation failed
+System.Messaging.MessageQueueException (0x80004005): Queue handle can no longer be used to receive messages because the queue was deleted. The handle should be closed.
+   at System.Messaging.MessageEnumerator.MoveNext(TimeSpan timeout)
+   at NServiceBus.MessagePump.<InnerProcessMessages>d__6.MoveNext() in C:\BuildAgent\work\a93f853f0c1b9532\src\NServiceBus.Core\Transports\Msmq\MessagePump.cs:line 129
+2017-12-01 19:09:03.114 WARN  NServiceBus.MessagePump MSMQ receive operation failed
+System.Messaging.MessageQueueException (0x80004005): Queue handle can no longer be used to receive messages because the queue was deleted. The handle should be closed.
+   at System.Messaging.MessageEnumerator.MoveNext(TimeSpan timeout)
+   at NServiceBus.MessagePump.<InnerProcessMessages>d__6.MoveNext() in C:\BuildAgent\work\a93f853f0c1b9532\src\NServiceBus.Core\Transports\Msmq\MessagePump.cs:line 129
+2017-12-01 19:09:03.465 WARN  NServiceBus.MessagePump MSMQ receive operation failed
+System.Messaging.MessageQueueException (0x80004005): Queue handle can no longer be used to receive messages because the queue was deleted. The handle should be closed.
+   at System.Messaging.MessageEnumerator.MoveNext(TimeSpan timeout)
+   at NServiceBus.MessagePump.<InnerProcessMessages>d__6.MoveNext() in C:\BuildAgent\work\a93f853f0c1b9532\src\NServiceBus.Core\Transports\Msmq\MessagePump.cs:line 129
+2017-12-01 19:09:03.555 WARN  NServiceBus.MessagePump MSMQ receive operation failed
+System.Messaging.MessageQueueException (0x80004005): Queue handle can no longer be used to receive messages because the queue was deleted. The handle should be closed.
+   at System.Messaging.MessageEnumerator.MoveNext(TimeSpan timeout)
+   at NServiceBus.MessagePump.<InnerProcessMessages>d__6.MoveNext() in C:\BuildAgent\work\a93f853f0c1b9532\src\NServiceBus.Core\Transports\Msmq\MessagePump.cs:line 129
+2017-12-01 19:09:03.709 WARN  NServiceBus.MessagePump MSMQ receive operation failed
+System.Messaging.MessageQueueException (0x80004005): Queue handle can no longer be used to receive messages because the queue was deleted. The handle should be closed.
+   at System.Messaging.MessageEnumerator.MoveNext(TimeSpan timeout)
+   at NServiceBus.MessagePump.<InnerProcessMessages>d__6.MoveNext() in C:\BuildAgent\work\a93f853f0c1b9532\src\NServiceBus.Core\Transports\Msmq\MessagePump.cs:line 129
+2017-12-01 19:09:04.132 WARN  NServiceBus.MessagePump MSMQ receive operation failed
+System.Messaging.MessageQueueException (0x80004005): Queue handle can no longer be used to receive messages because the queue was deleted. The handle should be closed.
+   at System.Messaging.MessageEnumerator.MoveNext(TimeSpan timeout)
+   at NServiceBus.MessagePump.<InnerProcessMessages>d__6.MoveNext() in C:\BuildAgent\work\a93f853f0c1b9532\src\NServiceBus.Core\Transports\Msmq\MessagePump.cs:line 129
+2017-12-01 19:09:04.475 WARN  NServiceBus.MessagePump MSMQ receive operation failed
+System.Messaging.MessageQueueException (0x80004005): Queue handle can no longer be used to receive messages because the queue was deleted. The handle should be closed.
+   at System.Messaging.MessageEnumerator.MoveNext(TimeSpan timeout)
+   at NServiceBus.MessagePump.<InnerProcessMessages>d__6.MoveNext() in C:\BuildAgent\work\a93f853f0c1b9532\src\NServiceBus.Core\Transports\Msmq\MessagePump.cs:line 129
+2017-12-01 19:09:04.567 WARN  NServiceBus.MessagePump MSMQ receive operation failed
+System.Messaging.MessageQueueException (0x80004005): Queue handle can no longer be used to receive messages because the queue was deleted. The handle should be closed.
+   at System.Messaging.MessageEnumerator.MoveNext(TimeSpan timeout)
+   at NServiceBus.MessagePump.<InnerProcessMessages>d__6.MoveNext() in C:\BuildAgent\work\a93f853f0c1b9532\src\NServiceBus.Core\Transports\Msmq\MessagePump.cs:line 129
+2017-12-01 19:09:04.725 WARN  NServiceBus.MessagePump MSMQ receive operation failed
+System.Messaging.MessageQueueException (0x80004005): Queue handle can no longer be used to receive messages because the queue was deleted. The handle should be closed.
+   at System.Messaging.MessageEnumerator.MoveNext(TimeSpan timeout)
+   at NServiceBus.MessagePump.<InnerProcessMessages>d__6.MoveNext() in C:\BuildAgent\work\a93f853f0c1b9532\src\NServiceBus.Core\Transports\Msmq\MessagePump.cs:line 129
+2017-12-01 19:09:05.146 WARN  NServiceBus.MessagePump MSMQ receive operation failed
+System.Messaging.MessageQueueException (0x80004005): Queue handle can no longer be used to receive messages because the queue was deleted. The handle should be closed.
+   at System.Messaging.MessageEnumerator.MoveNext(TimeSpan timeout)
+   at NServiceBus.MessagePump.<InnerProcessMessages>d__6.MoveNext() in C:\BuildAgent\work\a93f853f0c1b9532\src\NServiceBus.Core\Transports\Msmq\MessagePump.cs:line 129
+2017-12-01 19:09:05.493 WARN  NServiceBus.MessagePump MSMQ receive operation failed
+System.Messaging.MessageQueueException (0x80004005): Queue handle can no longer be used to receive messages because the queue was deleted. The handle should be closed.
+   at System.Messaging.MessageEnumerator.MoveNext(TimeSpan timeout)
+   at NServiceBus.MessagePump.<InnerProcessMessages>d__6.MoveNext() in C:\BuildAgent\work\a93f853f0c1b9532\src\NServiceBus.Core\Transports\Msmq\MessagePump.cs:line 129
+2017-12-01 19:09:05.572 WARN  NServiceBus.MessagePump MSMQ receive operation failed
+System.Messaging.MessageQueueException (0x80004005): Queue handle can no longer be used to receive messages because the queue was deleted. The handle should be closed.
+   at System.Messaging.MessageEnumerator.MoveNext(TimeSpan timeout)
+   at NServiceBus.MessagePump.<InnerProcessMessages>d__6.MoveNext() in C:\BuildAgent\work\a93f853f0c1b9532\src\NServiceBus.Core\Transports\Msmq\MessagePump.cs:line 129
+2017-12-01 19:09:05.726 WARN  NServiceBus.MessagePump MSMQ receive operation failed
+System.Messaging.MessageQueueException (0x80004005): Queue handle can no longer be used to receive messages because the queue was deleted. The handle should be closed.
+   at System.Messaging.MessageEnumerator.MoveNext(TimeSpan timeout)
+   at NServiceBus.MessagePump.<InnerProcessMessages>d__6.MoveNext() in C:\BuildAgent\work\a93f853f0c1b9532\src\NServiceBus.Core\Transports\Msmq\MessagePump.cs:line 129
+2017-12-01 19:09:06.161 WARN  NServiceBus.MessagePump MSMQ receive operation failed
+System.Messaging.MessageQueueException (0x80004005): Queue handle can no longer be used to receive messages because the queue was deleted. The handle should be closed.
+   at System.Messaging.MessageEnumerator.MoveNext(TimeSpan timeout)
+   at NServiceBus.MessagePump.<InnerProcessMessages>d__6.MoveNext() in C:\BuildAgent\work\a93f853f0c1b9532\src\NServiceBus.Core\Transports\Msmq\MessagePump.cs:line 129
+2017-12-01 19:09:06.509 WARN  NServiceBus.MessagePump MSMQ receive operation failed
+System.Messaging.MessageQueueException (0x80004005): Queue handle can no longer be used to receive messages because the queue was deleted. The handle should be closed.
+   at System.Messaging.MessageEnumerator.MoveNext(TimeSpan timeout)
+   at NServiceBus.MessagePump.<InnerProcessMessages>d__6.MoveNext() in C:\BuildAgent\work\a93f853f0c1b9532\src\NServiceBus.Core\Transports\Msmq\MessagePump.cs:line 129
+2017-12-01 19:09:06.582 WARN  NServiceBus.MessagePump MSMQ receive operation failed
+System.Messaging.MessageQueueException (0x80004005): Queue handle can no longer be used to receive messages because the queue was deleted. The handle should be closed.
+   at System.Messaging.MessageEnumerator.MoveNext(TimeSpan timeout)
+   at NServiceBus.MessagePump.<InnerProcessMessages>d__6.MoveNext() in C:\BuildAgent\work\a93f853f0c1b9532\src\NServiceBus.Core\Transports\Msmq\MessagePump.cs:line 129
+2017-12-01 19:09:06.746 WARN  NServiceBus.MessagePump MSMQ receive operation failed
+System.Messaging.MessageQueueException (0x80004005): Queue handle can no longer be used to receive messages because the queue was deleted. The handle should be closed.
+   at System.Messaging.MessageEnumerator.MoveNext(TimeSpan timeout)
+   at NServiceBus.MessagePump.<InnerProcessMessages>d__6.MoveNext() in C:\BuildAgent\work\a93f853f0c1b9532\src\NServiceBus.Core\Transports\Msmq\MessagePump.cs:line 129
+2017-12-01 19:09:07.177 WARN  NServiceBus.MessagePump MSMQ receive operation failed
+System.Messaging.MessageQueueException (0x80004005): Queue handle can no longer be used to receive messages because the queue was deleted. The handle should be closed.
+   at System.Messaging.MessageEnumerator.MoveNext(TimeSpan timeout)
+   at NServiceBus.MessagePump.<InnerProcessMessages>d__6.MoveNext() in C:\BuildAgent\work\a93f853f0c1b9532\src\NServiceBus.Core\Transports\Msmq\MessagePump.cs:line 129
+2017-12-01 19:09:07.525 WARN  NServiceBus.MessagePump MSMQ receive operation failed
+System.Messaging.MessageQueueException (0x80004005): Queue handle can no longer be used to receive messages because the queue was deleted. The handle should be closed.
+   at System.Messaging.MessageEnumerator.MoveNext(TimeSpan timeout)
+   at NServiceBus.MessagePump.<InnerProcessMessages>d__6.MoveNext() in C:\BuildAgent\work\a93f853f0c1b9532\src\NServiceBus.Core\Transports\Msmq\MessagePump.cs:line 129
+2017-12-01 19:09:07.587 WARN  NServiceBus.MessagePump MSMQ receive operation failed
+System.Messaging.MessageQueueException (0x80004005): Queue handle can no longer be used to receive messages because the queue was deleted. The handle should be closed.
+   at System.Messaging.MessageEnumerator.MoveNext(TimeSpan timeout)
+   at NServiceBus.MessagePump.<InnerProcessMessages>d__6.MoveNext() in C:\BuildAgent\work\a93f853f0c1b9532\src\NServiceBus.Core\Transports\Msmq\MessagePump.cs:line 129
+2017-12-01 19:09:07.756 WARN  NServiceBus.MessagePump MSMQ receive operation failed
+System.Messaging.MessageQueueException (0x80004005): Queue handle can no longer be used to receive messages because the queue was deleted. The handle should be closed.
+   at System.Messaging.MessageEnumerator.MoveNext(TimeSpan timeout)
+   at NServiceBus.MessagePump.<InnerProcessMessages>d__6.MoveNext() in C:\BuildAgent\work\a93f853f0c1b9532\src\NServiceBus.Core\Transports\Msmq\MessagePump.cs:line 129
+2017-12-01 19:09:08.191 WARN  NServiceBus.MessagePump MSMQ receive operation failed
+System.Messaging.MessageQueueException (0x80004005): Queue handle can no longer be used to receive messages because the queue was deleted. The handle should be closed.
+   at System.Messaging.MessageEnumerator.MoveNext(TimeSpan timeout)
+   at NServiceBus.MessagePump.<InnerProcessMessages>d__6.MoveNext() in C:\BuildAgent\work\a93f853f0c1b9532\src\NServiceBus.Core\Transports\Msmq\MessagePump.cs:line 129
+2017-12-01 19:09:08.538 WARN  NServiceBus.MessagePump MSMQ receive operation failed
+System.Messaging.MessageQueueException (0x80004005): Queue handle can no longer be used to receive messages because the queue was deleted. The handle should be closed.
+   at System.Messaging.MessageEnumerator.MoveNext(TimeSpan timeout)
+   at NServiceBus.MessagePump.<InnerProcessMessages>d__6.MoveNext() in C:\BuildAgent\work\a93f853f0c1b9532\src\NServiceBus.Core\Transports\Msmq\MessagePump.cs:line 129
+2017-12-01 19:09:08.599 WARN  NServiceBus.MessagePump MSMQ receive operation failed
+System.Messaging.MessageQueueException (0x80004005): Queue handle can no longer be used to receive messages because the queue was deleted. The handle should be closed.
+   at System.Messaging.MessageEnumerator.MoveNext(TimeSpan timeout)
+   at NServiceBus.MessagePump.<InnerProcessMessages>d__6.MoveNext() in C:\BuildAgent\work\a93f853f0c1b9532\src\NServiceBus.Core\Transports\Msmq\MessagePump.cs:line 129
+2017-12-01 19:09:08.771 WARN  NServiceBus.MessagePump MSMQ receive operation failed
+System.Messaging.MessageQueueException (0x80004005): Queue handle can no longer be used to receive messages because the queue was deleted. The handle should be closed.
+   at System.Messaging.MessageEnumerator.MoveNext(TimeSpan timeout)
+   at NServiceBus.MessagePump.<InnerProcessMessages>d__6.MoveNext() in C:\BuildAgent\work\a93f853f0c1b9532\src\NServiceBus.Core\Transports\Msmq\MessagePump.cs:line 129
+2017-12-01 19:09:09.207 WARN  NServiceBus.MessagePump MSMQ receive operation failed
+System.Messaging.MessageQueueException (0x80004005): Queue handle can no longer be used to receive messages because the queue was deleted. The handle should be closed.
+   at System.Messaging.MessageEnumerator.MoveNext(TimeSpan timeout)
+   at NServiceBus.MessagePump.<InnerProcessMessages>d__6.MoveNext() in C:\BuildAgent\work\a93f853f0c1b9532\src\NServiceBus.Core\Transports\Msmq\MessagePump.cs:line 129
+2017-12-01 19:09:09.553 WARN  NServiceBus.MessagePump MSMQ receive operation failed
+System.Messaging.MessageQueueException (0x80004005): Queue handle can no longer be used to receive messages because the queue was deleted. The handle should be closed.
+   at System.Messaging.MessageEnumerator.MoveNext(TimeSpan timeout)
+   at NServiceBus.MessagePump.<InnerProcessMessages>d__6.MoveNext() in C:\BuildAgent\work\a93f853f0c1b9532\src\NServiceBus.Core\Transports\Msmq\MessagePump.cs:line 129
+2017-12-01 19:09:09.616 WARN  NServiceBus.MessagePump MSMQ receive operation failed
+System.Messaging.MessageQueueException (0x80004005): Queue handle can no longer be used to receive messages because the queue was deleted. The handle should be closed.
+   at System.Messaging.MessageEnumerator.MoveNext(TimeSpan timeout)
+   at NServiceBus.MessagePump.<InnerProcessMessages>d__6.MoveNext() in C:\BuildAgent\work\a93f853f0c1b9532\src\NServiceBus.Core\Transports\Msmq\MessagePump.cs:line 129
+2017-12-01 19:09:09.785 WARN  NServiceBus.MessagePump MSMQ receive operation failed
+System.Messaging.MessageQueueException (0x80004005): Queue handle can no longer be used to receive messages because the queue was deleted. The handle should be closed.
+   at System.Messaging.MessageEnumerator.MoveNext(TimeSpan timeout)
+   at NServiceBus.MessagePump.<InnerProcessMessages>d__6.MoveNext() in C:\BuildAgent\work\a93f853f0c1b9532\src\NServiceBus.Core\Transports\Msmq\MessagePump.cs:line 129
+2017-12-01 19:09:10.209 WARN  NServiceBus.MessagePump MSMQ receive operation failed
+System.Messaging.MessageQueueException (0x80004005): Queue handle can no longer be used to receive messages because the queue was deleted. The handle should be closed.
+   at System.Messaging.MessageEnumerator.MoveNext(TimeSpan timeout)
+   at NServiceBus.MessagePump.<InnerProcessMessages>d__6.MoveNext() in C:\BuildAgent\work\a93f853f0c1b9532\src\NServiceBus.Core\Transports\Msmq\MessagePump.cs:line 129
+2017-12-01 19:09:10.568 WARN  NServiceBus.MessagePump MSMQ receive operation failed
+System.Messaging.MessageQueueException (0x80004005): Queue handle can no longer be used to receive messages because the queue was deleted. The handle should be closed.
+   at System.Messaging.MessageEnumerator.MoveNext(TimeSpan timeout)
+   at NServiceBus.MessagePump.<InnerProcessMessages>d__6.MoveNext() in C:\BuildAgent\work\a93f853f0c1b9532\src\NServiceBus.Core\Transports\Msmq\MessagePump.cs:line 129
+2017-12-01 19:09:10.632 WARN  NServiceBus.MessagePump MSMQ receive operation failed
+System.Messaging.MessageQueueException (0x80004005): Queue handle can no longer be used to receive messages because the queue was deleted. The handle should be closed.
+   at System.Messaging.MessageEnumerator.MoveNext(TimeSpan timeout)
+   at NServiceBus.MessagePump.<InnerProcessMessages>d__6.MoveNext() in C:\BuildAgent\work\a93f853f0c1b9532\src\NServiceBus.Core\Transports\Msmq\MessagePump.cs:line 129
+2017-12-01 19:09:10.804 WARN  NServiceBus.MessagePump MSMQ receive operation failed
+System.Messaging.MessageQueueException (0x80004005): Queue handle can no longer be used to receive messages because the queue was deleted. The handle should be closed.
+   at System.Messaging.MessageEnumerator.MoveNext(TimeSpan timeout)
+   at NServiceBus.MessagePump.<InnerProcessMessages>d__6.MoveNext() in C:\BuildAgent\work\a93f853f0c1b9532\src\NServiceBus.Core\Transports\Msmq\MessagePump.cs:line 129
+2017-12-01 19:09:11.225 WARN  NServiceBus.MessagePump MSMQ receive operation failed
+System.Messaging.MessageQueueException (0x80004005): Queue handle can no longer be used to receive messages because the queue was deleted. The handle should be closed.
+   at System.Messaging.MessageEnumerator.MoveNext(TimeSpan timeout)
+   at NServiceBus.MessagePump.<InnerProcessMessages>d__6.MoveNext() in C:\BuildAgent\work\a93f853f0c1b9532\src\NServiceBus.Core\Transports\Msmq\MessagePump.cs:line 129
+2017-12-01 19:09:11.570 WARN  NServiceBus.MessagePump MSMQ receive operation failed
+System.Messaging.MessageQueueException (0x80004005): Queue handle can no longer be used to receive messages because the queue was deleted. The handle should be closed.
+   at System.Messaging.MessageEnumerator.MoveNext(TimeSpan timeout)
+   at NServiceBus.MessagePump.<InnerProcessMessages>d__6.MoveNext() in C:\BuildAgent\work\a93f853f0c1b9532\src\NServiceBus.Core\Transports\Msmq\MessagePump.cs:line 129
+2017-12-01 19:09:11.645 WARN  NServiceBus.MessagePump MSMQ receive operation failed
+System.Messaging.MessageQueueException (0x80004005): Queue handle can no longer be used to receive messages because the queue was deleted. The handle should be closed.
+   at System.Messaging.MessageEnumerator.MoveNext(TimeSpan timeout)
+   at NServiceBus.MessagePump.<InnerProcessMessages>d__6.MoveNext() in C:\BuildAgent\work\a93f853f0c1b9532\src\NServiceBus.Core\Transports\Msmq\MessagePump.cs:line 129
+2017-12-01 19:09:11.820 WARN  NServiceBus.MessagePump MSMQ receive operation failed
+System.Messaging.MessageQueueException (0x80004005): Queue handle can no longer be used to receive messages because the queue was deleted. The handle should be closed.
+   at System.Messaging.MessageEnumerator.MoveNext(TimeSpan timeout)
+   at NServiceBus.MessagePump.<InnerProcessMessages>d__6.MoveNext() in C:\BuildAgent\work\a93f853f0c1b9532\src\NServiceBus.Core\Transports\Msmq\MessagePump.cs:line 129
+2017-12-01 19:09:12.241 WARN  NServiceBus.MessagePump MSMQ receive operation failed
+System.Messaging.MessageQueueException (0x80004005): Queue handle can no longer be used to receive messages because the queue was deleted. The handle should be closed.
+   at System.Messaging.MessageEnumerator.MoveNext(TimeSpan timeout)
+   at NServiceBus.MessagePump.<InnerProcessMessages>d__6.MoveNext() in C:\BuildAgent\work\a93f853f0c1b9532\src\NServiceBus.Core\Transports\Msmq\MessagePump.cs:line 129
+2017-12-01 19:09:12.586 WARN  NServiceBus.MessagePump MSMQ receive operation failed
+System.Messaging.MessageQueueException (0x80004005): Queue handle can no longer be used to receive messages because the queue was deleted. The handle should be closed.
+   at System.Messaging.MessageEnumerator.MoveNext(TimeSpan timeout)
+   at NServiceBus.MessagePump.<InnerProcessMessages>d__6.MoveNext() in C:\BuildAgent\work\a93f853f0c1b9532\src\NServiceBus.Core\Transports\Msmq\MessagePump.cs:line 129
+2017-12-01 19:09:12.660 WARN  NServiceBus.MessagePump MSMQ receive operation failed
+System.Messaging.MessageQueueException (0x80004005): Queue handle can no longer be used to receive messages because the queue was deleted. The handle should be closed.
+   at System.Messaging.MessageEnumerator.MoveNext(TimeSpan timeout)
+   at NServiceBus.MessagePump.<InnerProcessMessages>d__6.MoveNext() in C:\BuildAgent\work\a93f853f0c1b9532\src\NServiceBus.Core\Transports\Msmq\MessagePump.cs:line 129
+2017-12-01 19:09:12.835 WARN  NServiceBus.MessagePump MSMQ receive operation failed
+System.Messaging.MessageQueueException (0x80004005): Queue handle can no longer be used to receive messages because the queue was deleted. The handle should be closed.
+   at System.Messaging.MessageEnumerator.MoveNext(TimeSpan timeout)
+   at NServiceBus.MessagePump.<InnerProcessMessages>d__6.MoveNext() in C:\BuildAgent\work\a93f853f0c1b9532\src\NServiceBus.Core\Transports\Msmq\MessagePump.cs:line 129
+2017-12-01 19:09:13.256 WARN  NServiceBus.MessagePump MSMQ receive operation failed
+System.Messaging.MessageQueueException (0x80004005): Queue handle can no longer be used to receive messages because the queue was deleted. The handle should be closed.
+   at System.Messaging.MessageEnumerator.MoveNext(TimeSpan timeout)
+   at NServiceBus.MessagePump.<InnerProcessMessages>d__6.MoveNext() in C:\BuildAgent\work\a93f853f0c1b9532\src\NServiceBus.Core\Transports\Msmq\MessagePump.cs:line 129
+2017-12-01 19:09:13.600 WARN  NServiceBus.MessagePump MSMQ receive operation failed
+System.Messaging.MessageQueueException (0x80004005): Queue handle can no longer be used to receive messages because the queue was deleted. The handle should be closed.
+   at System.Messaging.MessageEnumerator.MoveNext(TimeSpan timeout)
+   at NServiceBus.MessagePump.<InnerProcessMessages>d__6.MoveNext() in C:\BuildAgent\work\a93f853f0c1b9532\src\NServiceBus.Core\Transports\Msmq\MessagePump.cs:line 129
+2017-12-01 19:09:13.676 WARN  NServiceBus.MessagePump MSMQ receive operation failed
+System.Messaging.MessageQueueException (0x80004005): Queue handle can no longer be used to receive messages because the queue was deleted. The handle should be closed.
+   at System.Messaging.MessageEnumerator.MoveNext(TimeSpan timeout)
+   at NServiceBus.MessagePump.<InnerProcessMessages>d__6.MoveNext() in C:\BuildAgent\work\a93f853f0c1b9532\src\NServiceBus.Core\Transports\Msmq\MessagePump.cs:line 129
+2017-12-01 19:09:13.849 WARN  NServiceBus.MessagePump MSMQ receive operation failed
+System.Messaging.MessageQueueException (0x80004005): Queue handle can no longer be used to receive messages because the queue was deleted. The handle should be closed.
+   at System.Messaging.MessageEnumerator.MoveNext(TimeSpan timeout)
+   at NServiceBus.MessagePump.<InnerProcessMessages>d__6.MoveNext() in C:\BuildAgent\work\a93f853f0c1b9532\src\NServiceBus.Core\Transports\Msmq\MessagePump.cs:line 129
+2017-12-01 19:09:14.274 WARN  NServiceBus.MessagePump MSMQ receive operation failed
+System.Messaging.MessageQueueException (0x80004005): Queue handle can no longer be used to receive messages because the queue was deleted. The handle should be closed.
+   at System.Messaging.MessageEnumerator.MoveNext(TimeSpan timeout)
+   at NServiceBus.MessagePump.<InnerProcessMessages>d__6.MoveNext() in C:\BuildAgent\work\a93f853f0c1b9532\src\NServiceBus.Core\Transports\Msmq\MessagePump.cs:line 129
+2017-12-01 19:09:14.613 WARN  NServiceBus.MessagePump MSMQ receive operation failed
+System.Messaging.MessageQueueException (0x80004005): Queue handle can no longer be used to receive messages because the queue was deleted. The handle should be closed.
+   at System.Messaging.MessageEnumerator.MoveNext(TimeSpan timeout)
+   at NServiceBus.MessagePump.<InnerProcessMessages>d__6.MoveNext() in C:\BuildAgent\work\a93f853f0c1b9532\src\NServiceBus.Core\Transports\Msmq\MessagePump.cs:line 129
+2017-12-01 19:09:14.691 WARN  NServiceBus.MessagePump MSMQ receive operation failed
+System.Messaging.MessageQueueException (0x80004005): Queue handle can no longer be used to receive messages because the queue was deleted. The handle should be closed.
+   at System.Messaging.MessageEnumerator.MoveNext(TimeSpan timeout)
+   at NServiceBus.MessagePump.<InnerProcessMessages>d__6.MoveNext() in C:\BuildAgent\work\a93f853f0c1b9532\src\NServiceBus.Core\Transports\Msmq\MessagePump.cs:line 129
+2017-12-01 19:09:14.867 WARN  NServiceBus.MessagePump MSMQ receive operation failed
+System.Messaging.MessageQueueException (0x80004005): Queue handle can no longer be used to receive messages because the queue was deleted. The handle should be closed.
+   at System.Messaging.MessageEnumerator.MoveNext(TimeSpan timeout)
+   at NServiceBus.MessagePump.<InnerProcessMessages>d__6.MoveNext() in C:\BuildAgent\work\a93f853f0c1b9532\src\NServiceBus.Core\Transports\Msmq\MessagePump.cs:line 129
+2017-12-01 19:09:15.284 WARN  NServiceBus.MessagePump MSMQ receive operation failed
+System.Messaging.MessageQueueException (0x80004005): Queue handle can no longer be used to receive messages because the queue was deleted. The handle should be closed.
+   at System.Messaging.MessageEnumerator.MoveNext(TimeSpan timeout)
+   at NServiceBus.MessagePump.<InnerProcessMessages>d__6.MoveNext() in C:\BuildAgent\work\a93f853f0c1b9532\src\NServiceBus.Core\Transports\Msmq\MessagePump.cs:line 129
+2017-12-01 19:09:15.630 WARN  NServiceBus.MessagePump MSMQ receive operation failed
+System.Messaging.MessageQueueException (0x80004005): Queue handle can no longer be used to receive messages because the queue was deleted. The handle should be closed.
+   at System.Messaging.MessageEnumerator.MoveNext(TimeSpan timeout)
+   at NServiceBus.MessagePump.<InnerProcessMessages>d__6.MoveNext() in C:\BuildAgent\work\a93f853f0c1b9532\src\NServiceBus.Core\Transports\Msmq\MessagePump.cs:line 129
+2017-12-01 19:09:15.693 WARN  NServiceBus.MessagePump MSMQ receive operation failed
+System.Messaging.MessageQueueException (0x80004005): Queue handle can no longer be used to receive messages because the queue was deleted. The handle should be closed.
+   at System.Messaging.MessageEnumerator.MoveNext(TimeSpan timeout)
+   at NServiceBus.MessagePump.<InnerProcessMessages>d__6.MoveNext() in C:\BuildAgent\work\a93f853f0c1b9532\src\NServiceBus.Core\Transports\Msmq\MessagePump.cs:line 129
+2017-12-01 19:09:15.886 WARN  NServiceBus.MessagePump MSMQ receive operation failed
+System.Messaging.MessageQueueException (0x80004005): Queue handle can no longer be used to receive messages because the queue was deleted. The handle should be closed.
+   at System.Messaging.MessageEnumerator.MoveNext(TimeSpan timeout)
+   at NServiceBus.MessagePump.<InnerProcessMessages>d__6.MoveNext() in C:\BuildAgent\work\a93f853f0c1b9532\src\NServiceBus.Core\Transports\Msmq\MessagePump.cs:line 129
+2017-12-01 19:09:16.287 WARN  NServiceBus.MessagePump MSMQ receive operation failed
+System.Messaging.MessageQueueException (0x80004005): Queue handle can no longer be used to receive messages because the queue was deleted. The handle should be closed.
+   at System.Messaging.MessageEnumerator.MoveNext(TimeSpan timeout)
+   at NServiceBus.MessagePump.<InnerProcessMessages>d__6.MoveNext() in C:\BuildAgent\work\a93f853f0c1b9532\src\NServiceBus.Core\Transports\Msmq\MessagePump.cs:line 129
+2017-12-01 19:09:16.650 WARN  NServiceBus.MessagePump MSMQ receive operation failed
+System.Messaging.MessageQueueException (0x80004005): Queue handle can no longer be used to receive messages because the queue was deleted. The handle should be closed.
+   at System.Messaging.MessageEnumerator.MoveNext(TimeSpan timeout)
+   at NServiceBus.MessagePump.<InnerProcessMessages>d__6.MoveNext() in C:\BuildAgent\work\a93f853f0c1b9532\src\NServiceBus.Core\Transports\Msmq\MessagePump.cs:line 129
+2017-12-01 19:09:16.709 WARN  NServiceBus.MessagePump MSMQ receive operation failed
+System.Messaging.MessageQueueException (0x80004005): Queue handle can no longer be used to receive messages because the queue was deleted. The handle should be closed.
+   at System.Messaging.MessageEnumerator.MoveNext(TimeSpan timeout)
+   at NServiceBus.MessagePump.<InnerProcessMessages>d__6.MoveNext() in C:\BuildAgent\work\a93f853f0c1b9532\src\NServiceBus.Core\Transports\Msmq\MessagePump.cs:line 129
+2017-12-01 19:09:16.903 WARN  NServiceBus.MessagePump MSMQ receive operation failed
+System.Messaging.MessageQueueException (0x80004005): Queue handle can no longer be used to receive messages because the queue was deleted. The handle should be closed.
+   at System.Messaging.MessageEnumerator.MoveNext(TimeSpan timeout)
+   at NServiceBus.MessagePump.<InnerProcessMessages>d__6.MoveNext() in C:\BuildAgent\work\a93f853f0c1b9532\src\NServiceBus.Core\Transports\Msmq\MessagePump.cs:line 129
+2017-12-01 19:09:17.291 WARN  NServiceBus.MessagePump MSMQ receive operation failed
+System.Messaging.MessageQueueException (0x80004005): Queue handle can no longer be used to receive messages because the queue was deleted. The handle should be closed.
+   at System.Messaging.MessageEnumerator.MoveNext(TimeSpan timeout)
+   at NServiceBus.MessagePump.<InnerProcessMessages>d__6.MoveNext() in C:\BuildAgent\work\a93f853f0c1b9532\src\NServiceBus.Core\Transports\Msmq\MessagePump.cs:line 129
+2017-12-01 19:09:17.661 WARN  NServiceBus.MessagePump MSMQ receive operation failed
+System.Messaging.MessageQueueException (0x80004005): Queue handle can no longer be used to receive messages because the queue was deleted. The handle should be closed.
+   at System.Messaging.MessageEnumerator.MoveNext(TimeSpan timeout)
+   at NServiceBus.MessagePump.<InnerProcessMessages>d__6.MoveNext() in C:\BuildAgent\work\a93f853f0c1b9532\src\NServiceBus.Core\Transports\Msmq\MessagePump.cs:line 129
+2017-12-01 19:09:17.726 WARN  NServiceBus.MessagePump MSMQ receive operation failed
+System.Messaging.MessageQueueException (0x80004005): Queue handle can no longer be used to receive messages because the queue was deleted. The handle should be closed.
+   at System.Messaging.MessageEnumerator.MoveNext(TimeSpan timeout)
+   at NServiceBus.MessagePump.<InnerProcessMessages>d__6.MoveNext() in C:\BuildAgent\work\a93f853f0c1b9532\src\NServiceBus.Core\Transports\Msmq\MessagePump.cs:line 129
+2017-12-01 19:09:17.918 WARN  NServiceBus.MessagePump MSMQ receive operation failed
+System.Messaging.MessageQueueException (0x80004005): Queue handle can no longer be used to receive messages because the queue was deleted. The handle should be closed.
+   at System.Messaging.MessageEnumerator.MoveNext(TimeSpan timeout)
+   at NServiceBus.MessagePump.<InnerProcessMessages>d__6.MoveNext() in C:\BuildAgent\work\a93f853f0c1b9532\src\NServiceBus.Core\Transports\Msmq\MessagePump.cs:line 129
+2017-12-01 19:09:18.306 WARN  NServiceBus.MessagePump MSMQ receive operation failed
+System.Messaging.MessageQueueException (0x80004005): Queue handle can no longer be used to receive messages because the queue was deleted. The handle should be closed.
+   at System.Messaging.MessageEnumerator.MoveNext(TimeSpan timeout)
+   at NServiceBus.MessagePump.<InnerProcessMessages>d__6.MoveNext() in C:\BuildAgent\work\a93f853f0c1b9532\src\NServiceBus.Core\Transports\Msmq\MessagePump.cs:line 129
+2017-12-01 19:09:18.675 WARN  NServiceBus.MessagePump MSMQ receive operation failed
+System.Messaging.MessageQueueException (0x80004005): Queue handle can no longer be used to receive messages because the queue was deleted. The handle should be closed.
+   at System.Messaging.MessageEnumerator.MoveNext(TimeSpan timeout)
+   at NServiceBus.MessagePump.<InnerProcessMessages>d__6.MoveNext() in C:\BuildAgent\work\a93f853f0c1b9532\src\NServiceBus.Core\Transports\Msmq\MessagePump.cs:line 129
+2017-12-01 19:09:18.742 WARN  NServiceBus.MessagePump MSMQ receive operation failed
+System.Messaging.MessageQueueException (0x80004005): Queue handle can no longer be used to receive messages because the queue was deleted. The handle should be closed.
+   at System.Messaging.MessageEnumerator.MoveNext(TimeSpan timeout)
+   at NServiceBus.MessagePump.<InnerProcessMessages>d__6.MoveNext() in C:\BuildAgent\work\a93f853f0c1b9532\src\NServiceBus.Core\Transports\Msmq\MessagePump.cs:line 129
+2017-12-01 19:09:18.925 WARN  NServiceBus.MessagePump MSMQ receive operation failed
+System.Messaging.MessageQueueException (0x80004005): Queue handle can no longer be used to receive messages because the queue was deleted. The handle should be closed.
+   at System.Messaging.MessageEnumerator.MoveNext(TimeSpan timeout)
+   at NServiceBus.MessagePump.<InnerProcessMessages>d__6.MoveNext() in C:\BuildAgent\work\a93f853f0c1b9532\src\NServiceBus.Core\Transports\Msmq\MessagePump.cs:line 129
+2017-12-01 19:09:19.324 WARN  NServiceBus.MessagePump MSMQ receive operation failed
+System.Messaging.MessageQueueException (0x80004005): Queue handle can no longer be used to receive messages because the queue was deleted. The handle should be closed.
+   at System.Messaging.MessageEnumerator.MoveNext(TimeSpan timeout)
+   at NServiceBus.MessagePump.<InnerProcessMessages>d__6.MoveNext() in C:\BuildAgent\work\a93f853f0c1b9532\src\NServiceBus.Core\Transports\Msmq\MessagePump.cs:line 129
+2017-12-01 19:09:19.678 WARN  NServiceBus.MessagePump MSMQ receive operation failed
+System.Messaging.MessageQueueException (0x80004005): Queue handle can no longer be used to receive messages because the queue was deleted. The handle should be closed.
+   at System.Messaging.MessageEnumerator.MoveNext(TimeSpan timeout)
+   at NServiceBus.MessagePump.<InnerProcessMessages>d__6.MoveNext() in C:\BuildAgent\work\a93f853f0c1b9532\src\NServiceBus.Core\Transports\Msmq\MessagePump.cs:line 129
+2017-12-01 19:09:19.754 WARN  NServiceBus.MessagePump MSMQ receive operation failed
+System.Messaging.MessageQueueException (0x80004005): Queue handle can no longer be used to receive messages because the queue was deleted. The handle should be closed.
+   at System.Messaging.MessageEnumerator.MoveNext(TimeSpan timeout)
+   at NServiceBus.MessagePump.<InnerProcessMessages>d__6.MoveNext() in C:\BuildAgent\work\a93f853f0c1b9532\src\NServiceBus.Core\Transports\Msmq\MessagePump.cs:line 129
+2017-12-01 19:09:19.943 WARN  NServiceBus.MessagePump MSMQ receive operation failed
+System.Messaging.MessageQueueException (0x80004005): Queue handle can no longer be used to receive messages because the queue was deleted. The handle should be closed.
+   at System.Messaging.MessageEnumerator.MoveNext(TimeSpan timeout)
+   at NServiceBus.MessagePump.<InnerProcessMessages>d__6.MoveNext() in C:\BuildAgent\work\a93f853f0c1b9532\src\NServiceBus.Core\Transports\Msmq\MessagePump.cs:line 129
+2017-12-01 19:09:20.332 WARN  NServiceBus.MessagePump MSMQ receive operation failed
+System.Messaging.MessageQueueException (0x80004005): Queue handle can no longer be used to receive messages because the queue was deleted. The handle should be closed.
+   at System.Messaging.MessageEnumerator.MoveNext(TimeSpan timeout)
+   at NServiceBus.MessagePump.<InnerProcessMessages>d__6.MoveNext() in C:\BuildAgent\work\a93f853f0c1b9532\src\NServiceBus.Core\Transports\Msmq\MessagePump.cs:line 129
+2017-12-01 19:09:20.692 WARN  NServiceBus.MessagePump MSMQ receive operation failed
+System.Messaging.MessageQueueException (0x80004005): Queue handle can no longer be used to receive messages because the queue was deleted. The handle should be closed.
+   at System.Messaging.MessageEnumerator.MoveNext(TimeSpan timeout)
+   at NServiceBus.MessagePump.<InnerProcessMessages>d__6.MoveNext() in C:\BuildAgent\work\a93f853f0c1b9532\src\NServiceBus.Core\Transports\Msmq\MessagePump.cs:line 129
+2017-12-01 19:09:20.769 WARN  NServiceBus.MessagePump MSMQ receive operation failed
+System.Messaging.MessageQueueException (0x80004005): Queue handle can no longer be used to receive messages because the queue was deleted. The handle should be closed.
+   at System.Messaging.MessageEnumerator.MoveNext(TimeSpan timeout)
+   at NServiceBus.MessagePump.<InnerProcessMessages>d__6.MoveNext() in C:\BuildAgent\work\a93f853f0c1b9532\src\NServiceBus.Core\Transports\Msmq\MessagePump.cs:line 129
+2017-12-01 19:14:31.439 INFO  DefaultFactory Logging to 'E:\OfficeWork\ResearchNServiceBus\Research.Lateetud.NServiceBus\Lateetud.NServiceBus\App_Data\' with level Info
+2017-12-01 19:14:31.592 INFO  NServiceBus.LicenseManager Selected active license from HKEY_LOCAL_MACHINE\SOFTWARE\ParticularSoftware
+License Expiration: 12 December 2017
+
+2017-12-01 19:14:31.707 INFO  NServiceBus.Persistence.Sql.Installer Executing 'E:\OfficeWork\ResearchNServiceBus\Research.Lateetud.NServiceBus\Lateetud.NServiceBus\bin\NServiceBus.Persistence.Sql\MsSqlServer\Subscription_Create.sql'
+2017-12-01 19:14:31.727 INFO  NServiceBus.Persistence.Sql.Installer Executing 'E:\OfficeWork\ResearchNServiceBus\Research.Lateetud.NServiceBus\Lateetud.NServiceBus\bin\NServiceBus.Persistence.Sql\MsSqlServer\Timeout_Create.sql'
+2017-12-01 19:14:31.772 INFO  NServiceBus.PerformanceMonitorUsersInstaller Did not attempt to add user 'RIPANPC\Dell' to group 'Performance Monitor Users' since the process is not running with elevated privileges. Processing will continue. To manually perform this action, run the following command from an admin console:
+net localgroup "Performance Monitor Users" "RIPANPC\Dell" /add
+2017-12-01 19:14:31.826 WARN  NServiceBus.QueuePermissions Queue [private$\error] is running with [Everyone] with AccessRights set to [GenericWrite]. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2017-12-01 19:14:31.829 WARN  NServiceBus.QueuePermissions Queue [private$\error] is running with [NT AUTHORITY\ANONYMOUS LOGON] with AccessRights set to [WriteMessage]. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2017-12-01 19:14:31.840 WARN  NServiceBus.QueuePermissions Queue [private$\NEC.GeneralAgent.Publisher.Timeouts] is running with [Everyone] with AccessRights set to [GenericWrite]. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2017-12-01 19:14:31.844 WARN  NServiceBus.QueuePermissions Queue [private$\NEC.GeneralAgent.Publisher.Timeouts] is running with [NT AUTHORITY\ANONYMOUS LOGON] with AccessRights set to [WriteMessage]. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2017-12-01 19:14:31.849 WARN  NServiceBus.QueuePermissions Queue [private$\NEC.GeneralAgent.Publisher.TimeoutsDispatcher] is running with [Everyone] with AccessRights set to [GenericWrite]. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2017-12-01 19:14:31.854 WARN  NServiceBus.QueuePermissions Queue [private$\NEC.GeneralAgent.Publisher.TimeoutsDispatcher] is running with [NT AUTHORITY\ANONYMOUS LOGON] with AccessRights set to [WriteMessage]. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2017-12-01 19:14:31.860 WARN  NServiceBus.QueuePermissions Queue [private$\NEC.GeneralAgent.Publisher.Retries] is running with [Everyone] with AccessRights set to [GenericWrite]. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2017-12-01 19:14:31.864 WARN  NServiceBus.QueuePermissions Queue [private$\NEC.GeneralAgent.Publisher.Retries] is running with [NT AUTHORITY\ANONYMOUS LOGON] with AccessRights set to [WriteMessage]. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2017-12-01 19:14:31.870 WARN  NServiceBus.QueuePermissions Queue [private$\NEC.GeneralAgent.Publisher] is running with [Everyone] with AccessRights set to [GenericWrite]. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2017-12-01 19:14:31.878 WARN  NServiceBus.QueuePermissions Queue [private$\NEC.GeneralAgent.Publisher] is running with [NT AUTHORITY\ANONYMOUS LOGON] with AccessRights set to [WriteMessage]. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2017-12-01 19:14:31.890 INFO  NServiceBus.PerformanceCounterHelper NServiceBus performance counter for '# of msgs pulled from the input queue /sec' is not set up correctly. To rectify this problem, consult the NServiceBus performance counters documentation.
+2017-12-01 19:14:31.893 INFO  NServiceBus.PerformanceCounterHelper NServiceBus performance counter for '# of msgs successfully processed / sec' is not set up correctly. To rectify this problem, consult the NServiceBus performance counters documentation.
+2017-12-01 19:14:31.895 INFO  NServiceBus.PerformanceCounterHelper NServiceBus performance counter for '# of msgs failures / sec' is not set up correctly. To rectify this problem, consult the NServiceBus performance counters documentation.
+2017-12-01 19:14:33.134 INFO  NServiceBus.SubscriptionReceiverBehavior Subscribe from NEC.GeneralAgent.Subscriber@RIPANPC on message type Lateetud.NServiceBus.Common.Models.NECGeneralAgent.NECGeneralAgent, Lateetud.NServiceBus.Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+2017-12-01 19:14:33.134 INFO  NServiceBus.SubscriptionReceiverBehavior Subscribe from NEC.GeneralAgent.Subscriber@RIPANPC on message type Lateetud.NServiceBus.Common.Models.NECGeneralAgent.NECGeneralAgentResult, Lateetud.NServiceBus.Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+2017-12-01 19:16:13.093 INFO  DefaultFactory Logging to 'E:\OfficeWork\ResearchNServiceBus\Research.Lateetud.NServiceBus\Lateetud.NServiceBus\App_Data\' with level Info
+2017-12-01 19:16:13.238 INFO  NServiceBus.LicenseManager Selected active license from HKEY_LOCAL_MACHINE\SOFTWARE\ParticularSoftware
+License Expiration: 12 December 2017
+
+2017-12-01 19:16:13.320 INFO  NServiceBus.Persistence.Sql.Installer Executing 'E:\OfficeWork\ResearchNServiceBus\Research.Lateetud.NServiceBus\Lateetud.NServiceBus\bin\NServiceBus.Persistence.Sql\MsSqlServer\Subscription_Create.sql'
+2017-12-01 19:16:13.339 INFO  NServiceBus.Persistence.Sql.Installer Executing 'E:\OfficeWork\ResearchNServiceBus\Research.Lateetud.NServiceBus\Lateetud.NServiceBus\bin\NServiceBus.Persistence.Sql\MsSqlServer\Timeout_Create.sql'
+2017-12-01 19:16:14.898 INFO  NServiceBus.PerformanceMonitorUsersInstaller Did not attempt to add user 'RIPANPC\Dell' to group 'Performance Monitor Users' since the process is not running with elevated privileges. Processing will continue. To manually perform this action, run the following command from an admin console:
+net localgroup "Performance Monitor Users" "RIPANPC\Dell" /add
+2017-12-01 19:16:14.966 WARN  NServiceBus.QueuePermissions Queue [private$\error] is running with [Everyone] with AccessRights set to [GenericWrite]. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2017-12-01 19:16:14.969 WARN  NServiceBus.QueuePermissions Queue [private$\error] is running with [NT AUTHORITY\ANONYMOUS LOGON] with AccessRights set to [WriteMessage]. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2017-12-01 19:16:14.975 WARN  NServiceBus.QueuePermissions Queue [private$\NEC.GeneralAgent.Publisher.Timeouts] is running with [Everyone] with AccessRights set to [GenericWrite]. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2017-12-01 19:16:14.980 WARN  NServiceBus.QueuePermissions Queue [private$\NEC.GeneralAgent.Publisher.Timeouts] is running with [NT AUTHORITY\ANONYMOUS LOGON] with AccessRights set to [WriteMessage]. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2017-12-01 19:16:14.984 WARN  NServiceBus.QueuePermissions Queue [private$\NEC.GeneralAgent.Publisher.TimeoutsDispatcher] is running with [Everyone] with AccessRights set to [GenericWrite]. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2017-12-01 19:16:14.987 WARN  NServiceBus.QueuePermissions Queue [private$\NEC.GeneralAgent.Publisher.TimeoutsDispatcher] is running with [NT AUTHORITY\ANONYMOUS LOGON] with AccessRights set to [WriteMessage]. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2017-12-01 19:16:14.991 WARN  NServiceBus.QueuePermissions Queue [private$\NEC.GeneralAgent.Publisher.Retries] is running with [Everyone] with AccessRights set to [GenericWrite]. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2017-12-01 19:16:14.994 WARN  NServiceBus.QueuePermissions Queue [private$\NEC.GeneralAgent.Publisher.Retries] is running with [NT AUTHORITY\ANONYMOUS LOGON] with AccessRights set to [WriteMessage]. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2017-12-01 19:16:14.997 WARN  NServiceBus.QueuePermissions Queue [private$\NEC.GeneralAgent.Publisher] is running with [Everyone] with AccessRights set to [GenericWrite]. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2017-12-01 19:16:15.000 WARN  NServiceBus.QueuePermissions Queue [private$\NEC.GeneralAgent.Publisher] is running with [NT AUTHORITY\ANONYMOUS LOGON] with AccessRights set to [WriteMessage]. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2017-12-01 19:16:15.003 INFO  NServiceBus.PerformanceCounterHelper NServiceBus performance counter for '# of msgs pulled from the input queue /sec' is not set up correctly. To rectify this problem, consult the NServiceBus performance counters documentation.
+2017-12-01 19:16:15.005 INFO  NServiceBus.PerformanceCounterHelper NServiceBus performance counter for '# of msgs successfully processed / sec' is not set up correctly. To rectify this problem, consult the NServiceBus performance counters documentation.
+2017-12-01 19:16:15.006 INFO  NServiceBus.PerformanceCounterHelper NServiceBus performance counter for '# of msgs failures / sec' is not set up correctly. To rectify this problem, consult the NServiceBus performance counters documentation.
+2017-12-01 19:20:14.961 INFO  NServiceBus.SubscriptionReceiverBehavior Subscribe from NEC.GeneralAgent.Subscriber@RIPANPC on message type Lateetud.NServiceBus.Common.Models.NECGeneralAgent.NECGeneralAgentResult, Lateetud.NServiceBus.Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+2017-12-01 19:20:14.961 INFO  NServiceBus.SubscriptionReceiverBehavior Subscribe from NEC.GeneralAgent.Subscriber@RIPANPC on message type Lateetud.NServiceBus.Common.Models.NECGeneralAgent.NECGeneralAgent, Lateetud.NServiceBus.Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+2017-12-01 19:20:48.175 INFO  NServiceBus.LicenseManager Selected active license from HKEY_LOCAL_MACHINE\SOFTWARE\ParticularSoftware
+License Expiration: 12 December 2017
+
+2017-12-01 19:20:48.178 INFO  NServiceBus.Persistence.Sql.Installer Executing 'E:\OfficeWork\ResearchNServiceBus\Research.Lateetud.NServiceBus\Lateetud.NServiceBus\bin\NServiceBus.Persistence.Sql\MsSqlServer\Subscription_Create.sql'
+2017-12-01 19:20:48.191 INFO  NServiceBus.Persistence.Sql.Installer Executing 'E:\OfficeWork\ResearchNServiceBus\Research.Lateetud.NServiceBus\Lateetud.NServiceBus\bin\NServiceBus.Persistence.Sql\MsSqlServer\Timeout_Create.sql'
+2017-12-01 19:20:48.216 INFO  NServiceBus.PerformanceMonitorUsersInstaller Did not attempt to add user 'RIPANPC\Dell' to group 'Performance Monitor Users' since the process is not running with elevated privileges. Processing will continue. To manually perform this action, run the following command from an admin console:
+net localgroup "Performance Monitor Users" "RIPANPC\Dell" /add
+2017-12-01 19:20:48.242 WARN  NServiceBus.QueuePermissions Queue [private$\error] is running with [Everyone] with AccessRights set to [GenericWrite]. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2017-12-01 19:20:48.245 WARN  NServiceBus.QueuePermissions Queue [private$\error] is running with [NT AUTHORITY\ANONYMOUS LOGON] with AccessRights set to [WriteMessage]. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2017-12-01 19:20:48.250 WARN  NServiceBus.QueuePermissions Queue [private$\NEC.GeneralAgent.Publisher.Timeouts] is running with [Everyone] with AccessRights set to [GenericWrite]. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2017-12-01 19:20:48.253 WARN  NServiceBus.QueuePermissions Queue [private$\NEC.GeneralAgent.Publisher.Timeouts] is running with [NT AUTHORITY\ANONYMOUS LOGON] with AccessRights set to [WriteMessage]. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2017-12-01 19:20:48.258 WARN  NServiceBus.QueuePermissions Queue [private$\NEC.GeneralAgent.Publisher.TimeoutsDispatcher] is running with [Everyone] with AccessRights set to [GenericWrite]. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2017-12-01 19:20:48.262 WARN  NServiceBus.QueuePermissions Queue [private$\NEC.GeneralAgent.Publisher.TimeoutsDispatcher] is running with [NT AUTHORITY\ANONYMOUS LOGON] with AccessRights set to [WriteMessage]. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2017-12-01 19:20:48.266 WARN  NServiceBus.QueuePermissions Queue [private$\NEC.GeneralAgent.Publisher.Retries] is running with [Everyone] with AccessRights set to [GenericWrite]. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2017-12-01 19:20:48.269 WARN  NServiceBus.QueuePermissions Queue [private$\NEC.GeneralAgent.Publisher.Retries] is running with [NT AUTHORITY\ANONYMOUS LOGON] with AccessRights set to [WriteMessage]. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2017-12-01 19:20:48.273 WARN  NServiceBus.QueuePermissions Queue [private$\NEC.GeneralAgent.Publisher] is running with [Everyone] with AccessRights set to [GenericWrite]. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2017-12-01 19:20:48.277 WARN  NServiceBus.QueuePermissions Queue [private$\NEC.GeneralAgent.Publisher] is running with [NT AUTHORITY\ANONYMOUS LOGON] with AccessRights set to [WriteMessage]. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2017-12-01 19:20:48.279 INFO  NServiceBus.PerformanceCounterHelper NServiceBus performance counter for '# of msgs pulled from the input queue /sec' is not set up correctly. To rectify this problem, consult the NServiceBus performance counters documentation.
+2017-12-01 19:20:48.280 INFO  NServiceBus.PerformanceCounterHelper NServiceBus performance counter for '# of msgs successfully processed / sec' is not set up correctly. To rectify this problem, consult the NServiceBus performance counters documentation.
+2017-12-01 19:20:48.282 INFO  NServiceBus.PerformanceCounterHelper NServiceBus performance counter for '# of msgs failures / sec' is not set up correctly. To rectify this problem, consult the NServiceBus performance counters documentation.
+2017-12-01 19:22:19.762 INFO  NServiceBus.LicenseManager Selected active license from HKEY_LOCAL_MACHINE\SOFTWARE\ParticularSoftware
+License Expiration: 12 December 2017
+
+2017-12-01 19:22:19.766 INFO  NServiceBus.Persistence.Sql.Installer Executing 'E:\OfficeWork\ResearchNServiceBus\Research.Lateetud.NServiceBus\Lateetud.NServiceBus\bin\NServiceBus.Persistence.Sql\MsSqlServer\Subscription_Create.sql'
+2017-12-01 19:22:19.778 INFO  NServiceBus.Persistence.Sql.Installer Executing 'E:\OfficeWork\ResearchNServiceBus\Research.Lateetud.NServiceBus\Lateetud.NServiceBus\bin\NServiceBus.Persistence.Sql\MsSqlServer\Timeout_Create.sql'
+2017-12-01 19:22:19.801 INFO  NServiceBus.PerformanceMonitorUsersInstaller Did not attempt to add user 'RIPANPC\Dell' to group 'Performance Monitor Users' since the process is not running with elevated privileges. Processing will continue. To manually perform this action, run the following command from an admin console:
+net localgroup "Performance Monitor Users" "RIPANPC\Dell" /add
+2017-12-01 19:22:19.815 WARN  NServiceBus.QueuePermissions Queue [private$\error] is running with [Everyone] with AccessRights set to [GenericWrite]. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2017-12-01 19:22:19.820 WARN  NServiceBus.QueuePermissions Queue [private$\error] is running with [NT AUTHORITY\ANONYMOUS LOGON] with AccessRights set to [WriteMessage]. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2017-12-01 19:22:19.825 WARN  NServiceBus.QueuePermissions Queue [private$\NEC.GeneralAgent.Publisher.Timeouts] is running with [Everyone] with AccessRights set to [GenericWrite]. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2017-12-01 19:22:19.830 WARN  NServiceBus.QueuePermissions Queue [private$\NEC.GeneralAgent.Publisher.Timeouts] is running with [NT AUTHORITY\ANONYMOUS LOGON] with AccessRights set to [WriteMessage]. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2017-12-01 19:22:19.834 WARN  NServiceBus.QueuePermissions Queue [private$\NEC.GeneralAgent.Publisher.TimeoutsDispatcher] is running with [Everyone] with AccessRights set to [GenericWrite]. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2017-12-01 19:22:19.838 WARN  NServiceBus.QueuePermissions Queue [private$\NEC.GeneralAgent.Publisher.TimeoutsDispatcher] is running with [NT AUTHORITY\ANONYMOUS LOGON] with AccessRights set to [WriteMessage]. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2017-12-01 19:22:19.842 WARN  NServiceBus.QueuePermissions Queue [private$\NEC.GeneralAgent.Publisher.Retries] is running with [Everyone] with AccessRights set to [GenericWrite]. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2017-12-01 19:22:19.845 WARN  NServiceBus.QueuePermissions Queue [private$\NEC.GeneralAgent.Publisher.Retries] is running with [NT AUTHORITY\ANONYMOUS LOGON] with AccessRights set to [WriteMessage]. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2017-12-01 19:22:19.849 WARN  NServiceBus.QueuePermissions Queue [private$\NEC.GeneralAgent.Publisher] is running with [Everyone] with AccessRights set to [GenericWrite]. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2017-12-01 19:22:19.854 WARN  NServiceBus.QueuePermissions Queue [private$\NEC.GeneralAgent.Publisher] is running with [NT AUTHORITY\ANONYMOUS LOGON] with AccessRights set to [WriteMessage]. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2017-12-01 19:22:19.856 INFO  NServiceBus.PerformanceCounterHelper NServiceBus performance counter for '# of msgs pulled from the input queue /sec' is not set up correctly. To rectify this problem, consult the NServiceBus performance counters documentation.
+2017-12-01 19:22:19.858 INFO  NServiceBus.PerformanceCounterHelper NServiceBus performance counter for '# of msgs successfully processed / sec' is not set up correctly. To rectify this problem, consult the NServiceBus performance counters documentation.
+2017-12-01 19:22:19.860 INFO  NServiceBus.PerformanceCounterHelper NServiceBus performance counter for '# of msgs failures / sec' is not set up correctly. To rectify this problem, consult the NServiceBus performance counters documentation.
+2017-12-01 19:24:30.258 INFO  NServiceBus.SubscriptionReceiverBehavior Subscribe from NEC.GeneralAgent.Subscriber@RIPANPC on message type Lateetud.NServiceBus.Common.Models.NECGeneralAgent.NECGeneralAgent, Lateetud.NServiceBus.Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+2017-12-01 19:24:31.018 INFO  NServiceBus.SubscriptionReceiverBehavior Subscribe from NEC.GeneralAgent.Subscriber@RIPANPC on message type Lateetud.NServiceBus.Common.Models.NECGeneralAgent.NECGeneralAgentResult, Lateetud.NServiceBus.Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+2017-12-01 19:24:48.257 INFO  NServiceBus.LicenseManager Selected active license from HKEY_LOCAL_MACHINE\SOFTWARE\ParticularSoftware
+License Expiration: 12 December 2017
+
+2017-12-01 19:24:48.261 INFO  NServiceBus.Persistence.Sql.Installer Executing 'E:\OfficeWork\ResearchNServiceBus\Research.Lateetud.NServiceBus\Lateetud.NServiceBus\bin\NServiceBus.Persistence.Sql\MsSqlServer\Subscription_Create.sql'
+2017-12-01 19:24:48.269 INFO  NServiceBus.Persistence.Sql.Installer Executing 'E:\OfficeWork\ResearchNServiceBus\Research.Lateetud.NServiceBus\Lateetud.NServiceBus\bin\NServiceBus.Persistence.Sql\MsSqlServer\Timeout_Create.sql'
+2017-12-01 19:24:48.295 INFO  NServiceBus.PerformanceMonitorUsersInstaller Did not attempt to add user 'RIPANPC\Dell' to group 'Performance Monitor Users' since the process is not running with elevated privileges. Processing will continue. To manually perform this action, run the following command from an admin console:
+net localgroup "Performance Monitor Users" "RIPANPC\Dell" /add
+2017-12-01 19:24:48.308 WARN  NServiceBus.QueuePermissions Queue [private$\error] is running with [Everyone] with AccessRights set to [GenericWrite]. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2017-12-01 19:24:48.313 WARN  NServiceBus.QueuePermissions Queue [private$\error] is running with [NT AUTHORITY\ANONYMOUS LOGON] with AccessRights set to [WriteMessage]. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2017-12-01 19:24:48.318 WARN  NServiceBus.QueuePermissions Queue [private$\NEC.GeneralAgent.Publisher.Timeouts] is running with [Everyone] with AccessRights set to [GenericWrite]. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2017-12-01 19:24:48.321 WARN  NServiceBus.QueuePermissions Queue [private$\NEC.GeneralAgent.Publisher.Timeouts] is running with [NT AUTHORITY\ANONYMOUS LOGON] with AccessRights set to [WriteMessage]. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2017-12-01 19:24:48.329 WARN  NServiceBus.QueuePermissions Queue [private$\NEC.GeneralAgent.Publisher.TimeoutsDispatcher] is running with [Everyone] with AccessRights set to [GenericWrite]. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2017-12-01 19:24:48.332 WARN  NServiceBus.QueuePermissions Queue [private$\NEC.GeneralAgent.Publisher.TimeoutsDispatcher] is running with [NT AUTHORITY\ANONYMOUS LOGON] with AccessRights set to [WriteMessage]. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2017-12-01 19:24:48.336 WARN  NServiceBus.QueuePermissions Queue [private$\NEC.GeneralAgent.Publisher.Retries] is running with [Everyone] with AccessRights set to [GenericWrite]. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2017-12-01 19:24:48.340 WARN  NServiceBus.QueuePermissions Queue [private$\NEC.GeneralAgent.Publisher.Retries] is running with [NT AUTHORITY\ANONYMOUS LOGON] with AccessRights set to [WriteMessage]. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2017-12-01 19:24:48.345 WARN  NServiceBus.QueuePermissions Queue [private$\NEC.GeneralAgent.Publisher] is running with [Everyone] with AccessRights set to [GenericWrite]. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2017-12-01 19:24:48.348 WARN  NServiceBus.QueuePermissions Queue [private$\NEC.GeneralAgent.Publisher] is running with [NT AUTHORITY\ANONYMOUS LOGON] with AccessRights set to [WriteMessage]. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2017-12-01 19:24:48.350 INFO  NServiceBus.PerformanceCounterHelper NServiceBus performance counter for '# of msgs pulled from the input queue /sec' is not set up correctly. To rectify this problem, consult the NServiceBus performance counters documentation.
+2017-12-01 19:24:48.351 INFO  NServiceBus.PerformanceCounterHelper NServiceBus performance counter for '# of msgs successfully processed / sec' is not set up correctly. To rectify this problem, consult the NServiceBus performance counters documentation.
+2017-12-01 19:24:48.353 INFO  NServiceBus.PerformanceCounterHelper NServiceBus performance counter for '# of msgs failures / sec' is not set up correctly. To rectify this problem, consult the NServiceBus performance counters documentation.
+2017-12-01 19:24:57.722 INFO  NServiceBus.LicenseManager Selected active license from HKEY_LOCAL_MACHINE\SOFTWARE\ParticularSoftware
+License Expiration: 12 December 2017
+
+2017-12-01 19:24:57.733 INFO  NServiceBus.Persistence.Sql.Installer Executing 'E:\OfficeWork\ResearchNServiceBus\Research.Lateetud.NServiceBus\Lateetud.NServiceBus\bin\NServiceBus.Persistence.Sql\MsSqlServer\Subscription_Create.sql'
+2017-12-01 19:24:57.759 INFO  NServiceBus.Persistence.Sql.Installer Executing 'E:\OfficeWork\ResearchNServiceBus\Research.Lateetud.NServiceBus\Lateetud.NServiceBus\bin\NServiceBus.Persistence.Sql\MsSqlServer\Timeout_Create.sql'
+2017-12-01 19:24:57.765 INFO  NServiceBus.PerformanceMonitorUsersInstaller Did not attempt to add user 'RIPANPC\Dell' to group 'Performance Monitor Users' since the process is not running with elevated privileges. Processing will continue. To manually perform this action, run the following command from an admin console:
+net localgroup "Performance Monitor Users" "RIPANPC\Dell" /add
+2017-12-01 19:24:57.781 WARN  NServiceBus.QueuePermissions Queue [private$\error] is running with [Everyone] with AccessRights set to [GenericWrite]. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2017-12-01 19:24:57.786 WARN  NServiceBus.QueuePermissions Queue [private$\error] is running with [NT AUTHORITY\ANONYMOUS LOGON] with AccessRights set to [WriteMessage]. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2017-12-01 19:24:57.792 WARN  NServiceBus.QueuePermissions Queue [private$\NEC.GeneralAgent.Publisher.Timeouts] is running with [Everyone] with AccessRights set to [GenericWrite]. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2017-12-01 19:24:57.796 WARN  NServiceBus.QueuePermissions Queue [private$\NEC.GeneralAgent.Publisher.Timeouts] is running with [NT AUTHORITY\ANONYMOUS LOGON] with AccessRights set to [WriteMessage]. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2017-12-01 19:24:57.802 WARN  NServiceBus.QueuePermissions Queue [private$\NEC.GeneralAgent.Publisher.TimeoutsDispatcher] is running with [Everyone] with AccessRights set to [GenericWrite]. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2017-12-01 19:24:57.806 WARN  NServiceBus.QueuePermissions Queue [private$\NEC.GeneralAgent.Publisher.TimeoutsDispatcher] is running with [NT AUTHORITY\ANONYMOUS LOGON] with AccessRights set to [WriteMessage]. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2017-12-01 19:24:57.812 WARN  NServiceBus.QueuePermissions Queue [private$\NEC.GeneralAgent.Publisher.Retries] is running with [Everyone] with AccessRights set to [GenericWrite]. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2017-12-01 19:24:57.815 WARN  NServiceBus.QueuePermissions Queue [private$\NEC.GeneralAgent.Publisher.Retries] is running with [NT AUTHORITY\ANONYMOUS LOGON] with AccessRights set to [WriteMessage]. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2017-12-01 19:24:57.819 WARN  NServiceBus.QueuePermissions Queue [private$\NEC.GeneralAgent.Publisher] is running with [Everyone] with AccessRights set to [GenericWrite]. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2017-12-01 19:24:57.822 WARN  NServiceBus.QueuePermissions Queue [private$\NEC.GeneralAgent.Publisher] is running with [NT AUTHORITY\ANONYMOUS LOGON] with AccessRights set to [WriteMessage]. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2017-12-01 19:24:57.824 INFO  NServiceBus.PerformanceCounterHelper NServiceBus performance counter for '# of msgs pulled from the input queue /sec' is not set up correctly. To rectify this problem, consult the NServiceBus performance counters documentation.
+2017-12-01 19:24:57.826 INFO  NServiceBus.PerformanceCounterHelper NServiceBus performance counter for '# of msgs successfully processed / sec' is not set up correctly. To rectify this problem, consult the NServiceBus performance counters documentation.
+2017-12-01 19:24:57.829 INFO  NServiceBus.PerformanceCounterHelper NServiceBus performance counter for '# of msgs failures / sec' is not set up correctly. To rectify this problem, consult the NServiceBus performance counters documentation.
+2017-12-01 19:25:16.253 INFO  NServiceBus.LicenseManager Selected active license from HKEY_LOCAL_MACHINE\SOFTWARE\ParticularSoftware
+License Expiration: 12 December 2017
+
+2017-12-01 19:25:16.257 INFO  NServiceBus.Persistence.Sql.Installer Executing 'E:\OfficeWork\ResearchNServiceBus\Research.Lateetud.NServiceBus\Lateetud.NServiceBus\bin\NServiceBus.Persistence.Sql\MsSqlServer\Subscription_Create.sql'
+2017-12-01 19:25:16.269 INFO  NServiceBus.Persistence.Sql.Installer Executing 'E:\OfficeWork\ResearchNServiceBus\Research.Lateetud.NServiceBus\Lateetud.NServiceBus\bin\NServiceBus.Persistence.Sql\MsSqlServer\Timeout_Create.sql'
+2017-12-01 19:25:16.294 INFO  NServiceBus.PerformanceMonitorUsersInstaller Did not attempt to add user 'RIPANPC\Dell' to group 'Performance Monitor Users' since the process is not running with elevated privileges. Processing will continue. To manually perform this action, run the following command from an admin console:
+net localgroup "Performance Monitor Users" "RIPANPC\Dell" /add
+2017-12-01 19:25:16.310 WARN  NServiceBus.QueuePermissions Queue [private$\error] is running with [Everyone] with AccessRights set to [GenericWrite]. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2017-12-01 19:25:16.316 WARN  NServiceBus.QueuePermissions Queue [private$\error] is running with [NT AUTHORITY\ANONYMOUS LOGON] with AccessRights set to [WriteMessage]. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2017-12-01 19:25:16.321 WARN  NServiceBus.QueuePermissions Queue [private$\NEC.GeneralAgent.Publisher.Timeouts] is running with [Everyone] with AccessRights set to [GenericWrite]. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2017-12-01 19:25:16.328 WARN  NServiceBus.QueuePermissions Queue [private$\NEC.GeneralAgent.Publisher.Timeouts] is running with [NT AUTHORITY\ANONYMOUS LOGON] with AccessRights set to [WriteMessage]. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2017-12-01 19:25:16.332 WARN  NServiceBus.QueuePermissions Queue [private$\NEC.GeneralAgent.Publisher.TimeoutsDispatcher] is running with [Everyone] with AccessRights set to [GenericWrite]. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2017-12-01 19:25:16.337 WARN  NServiceBus.QueuePermissions Queue [private$\NEC.GeneralAgent.Publisher.TimeoutsDispatcher] is running with [NT AUTHORITY\ANONYMOUS LOGON] with AccessRights set to [WriteMessage]. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2017-12-01 19:25:16.346 WARN  NServiceBus.QueuePermissions Queue [private$\NEC.GeneralAgent.Publisher.Retries] is running with [Everyone] with AccessRights set to [GenericWrite]. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2017-12-01 19:25:16.349 WARN  NServiceBus.QueuePermissions Queue [private$\NEC.GeneralAgent.Publisher.Retries] is running with [NT AUTHORITY\ANONYMOUS LOGON] with AccessRights set to [WriteMessage]. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2017-12-01 19:25:16.353 WARN  NServiceBus.QueuePermissions Queue [private$\NEC.GeneralAgent.Publisher] is running with [Everyone] with AccessRights set to [GenericWrite]. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2017-12-01 19:25:16.357 WARN  NServiceBus.QueuePermissions Queue [private$\NEC.GeneralAgent.Publisher] is running with [NT AUTHORITY\ANONYMOUS LOGON] with AccessRights set to [WriteMessage]. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2017-12-01 19:25:16.359 INFO  NServiceBus.PerformanceCounterHelper NServiceBus performance counter for '# of msgs pulled from the input queue /sec' is not set up correctly. To rectify this problem, consult the NServiceBus performance counters documentation.
+2017-12-01 19:25:16.361 INFO  NServiceBus.PerformanceCounterHelper NServiceBus performance counter for '# of msgs successfully processed / sec' is not set up correctly. To rectify this problem, consult the NServiceBus performance counters documentation.
+2017-12-01 19:25:16.362 INFO  NServiceBus.PerformanceCounterHelper NServiceBus performance counter for '# of msgs failures / sec' is not set up correctly. To rectify this problem, consult the NServiceBus performance counters documentation.
+2017-12-01 19:25:32.332 INFO  NServiceBus.LicenseManager Selected active license from HKEY_LOCAL_MACHINE\SOFTWARE\ParticularSoftware
+License Expiration: 12 December 2017
+
+2017-12-01 19:25:32.339 INFO  NServiceBus.Persistence.Sql.Installer Executing 'E:\OfficeWork\ResearchNServiceBus\Research.Lateetud.NServiceBus\Lateetud.NServiceBus\bin\NServiceBus.Persistence.Sql\MsSqlServer\Subscription_Create.sql'
+2017-12-01 19:25:32.349 INFO  NServiceBus.Persistence.Sql.Installer Executing 'E:\OfficeWork\ResearchNServiceBus\Research.Lateetud.NServiceBus\Lateetud.NServiceBus\bin\NServiceBus.Persistence.Sql\MsSqlServer\Timeout_Create.sql'
+2017-12-01 19:25:32.378 INFO  NServiceBus.PerformanceMonitorUsersInstaller Did not attempt to add user 'RIPANPC\Dell' to group 'Performance Monitor Users' since the process is not running with elevated privileges. Processing will continue. To manually perform this action, run the following command from an admin console:
+net localgroup "Performance Monitor Users" "RIPANPC\Dell" /add
+2017-12-01 19:25:32.397 WARN  NServiceBus.QueuePermissions Queue [private$\error] is running with [Everyone] with AccessRights set to [GenericWrite]. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2017-12-01 19:25:32.402 WARN  NServiceBus.QueuePermissions Queue [private$\error] is running with [NT AUTHORITY\ANONYMOUS LOGON] with AccessRights set to [WriteMessage]. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2017-12-01 19:25:32.407 WARN  NServiceBus.QueuePermissions Queue [private$\NEC.GeneralAgent.Publisher.Timeouts] is running with [Everyone] with AccessRights set to [GenericWrite]. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2017-12-01 19:25:32.414 WARN  NServiceBus.QueuePermissions Queue [private$\NEC.GeneralAgent.Publisher.Timeouts] is running with [NT AUTHORITY\ANONYMOUS LOGON] with AccessRights set to [WriteMessage]. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2017-12-01 19:25:32.419 WARN  NServiceBus.QueuePermissions Queue [private$\NEC.GeneralAgent.Publisher.TimeoutsDispatcher] is running with [Everyone] with AccessRights set to [GenericWrite]. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2017-12-01 19:25:32.422 WARN  NServiceBus.QueuePermissions Queue [private$\NEC.GeneralAgent.Publisher.TimeoutsDispatcher] is running with [NT AUTHORITY\ANONYMOUS LOGON] with AccessRights set to [WriteMessage]. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2017-12-01 19:25:32.427 WARN  NServiceBus.QueuePermissions Queue [private$\NEC.GeneralAgent.Publisher.Retries] is running with [Everyone] with AccessRights set to [GenericWrite]. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2017-12-01 19:25:32.431 WARN  NServiceBus.QueuePermissions Queue [private$\NEC.GeneralAgent.Publisher.Retries] is running with [NT AUTHORITY\ANONYMOUS LOGON] with AccessRights set to [WriteMessage]. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2017-12-01 19:25:32.435 WARN  NServiceBus.QueuePermissions Queue [private$\NEC.GeneralAgent.Publisher] is running with [Everyone] with AccessRights set to [GenericWrite]. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2017-12-01 19:25:32.438 WARN  NServiceBus.QueuePermissions Queue [private$\NEC.GeneralAgent.Publisher] is running with [NT AUTHORITY\ANONYMOUS LOGON] with AccessRights set to [WriteMessage]. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2017-12-01 19:25:32.440 INFO  NServiceBus.PerformanceCounterHelper NServiceBus performance counter for '# of msgs pulled from the input queue /sec' is not set up correctly. To rectify this problem, consult the NServiceBus performance counters documentation.
+2017-12-01 19:25:32.443 INFO  NServiceBus.PerformanceCounterHelper NServiceBus performance counter for '# of msgs successfully processed / sec' is not set up correctly. To rectify this problem, consult the NServiceBus performance counters documentation.
+2017-12-01 19:25:32.446 INFO  NServiceBus.PerformanceCounterHelper NServiceBus performance counter for '# of msgs failures / sec' is not set up correctly. To rectify this problem, consult the NServiceBus performance counters documentation.
+2017-12-01 19:27:41.921 INFO  DefaultFactory Logging to 'E:\OfficeWork\ResearchNServiceBus\Research.Lateetud.NServiceBus\Lateetud.NServiceBus\App_Data\' with level Info
+2017-12-01 19:27:42.081 INFO  NServiceBus.LicenseManager Selected active license from HKEY_LOCAL_MACHINE\SOFTWARE\ParticularSoftware
+License Expiration: 12 December 2017
+
+2017-12-01 19:27:42.158 INFO  NServiceBus.Persistence.Sql.Installer Executing 'E:\OfficeWork\ResearchNServiceBus\Research.Lateetud.NServiceBus\Lateetud.NServiceBus\bin\NServiceBus.Persistence.Sql\MsSqlServer\Subscription_Create.sql'
+2017-12-01 19:27:42.178 INFO  NServiceBus.Persistence.Sql.Installer Executing 'E:\OfficeWork\ResearchNServiceBus\Research.Lateetud.NServiceBus\Lateetud.NServiceBus\bin\NServiceBus.Persistence.Sql\MsSqlServer\Timeout_Create.sql'
+2017-12-01 19:27:42.207 INFO  NServiceBus.PerformanceMonitorUsersInstaller Did not attempt to add user 'RIPANPC\Dell' to group 'Performance Monitor Users' since the process is not running with elevated privileges. Processing will continue. To manually perform this action, run the following command from an admin console:
+net localgroup "Performance Monitor Users" "RIPANPC\Dell" /add
+2017-12-01 19:27:42.270 WARN  NServiceBus.QueuePermissions Queue [private$\error] is running with [Everyone] with AccessRights set to [GenericWrite]. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2017-12-01 19:27:42.273 WARN  NServiceBus.QueuePermissions Queue [private$\error] is running with [NT AUTHORITY\ANONYMOUS LOGON] with AccessRights set to [WriteMessage]. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2017-12-01 19:27:42.279 WARN  NServiceBus.QueuePermissions Queue [private$\NEC.GeneralAgent.Publisher.Timeouts] is running with [Everyone] with AccessRights set to [GenericWrite]. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2017-12-01 19:27:42.282 WARN  NServiceBus.QueuePermissions Queue [private$\NEC.GeneralAgent.Publisher.Timeouts] is running with [NT AUTHORITY\ANONYMOUS LOGON] with AccessRights set to [WriteMessage]. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2017-12-01 19:27:42.287 WARN  NServiceBus.QueuePermissions Queue [private$\NEC.GeneralAgent.Publisher.TimeoutsDispatcher] is running with [Everyone] with AccessRights set to [GenericWrite]. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2017-12-01 19:27:42.292 WARN  NServiceBus.QueuePermissions Queue [private$\NEC.GeneralAgent.Publisher.TimeoutsDispatcher] is running with [NT AUTHORITY\ANONYMOUS LOGON] with AccessRights set to [WriteMessage]. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2017-12-01 19:27:42.296 WARN  NServiceBus.QueuePermissions Queue [private$\NEC.GeneralAgent.Publisher.Retries] is running with [Everyone] with AccessRights set to [GenericWrite]. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2017-12-01 19:27:42.299 WARN  NServiceBus.QueuePermissions Queue [private$\NEC.GeneralAgent.Publisher.Retries] is running with [NT AUTHORITY\ANONYMOUS LOGON] with AccessRights set to [WriteMessage]. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2017-12-01 19:27:42.304 WARN  NServiceBus.QueuePermissions Queue [private$\NEC.GeneralAgent.Publisher] is running with [Everyone] with AccessRights set to [GenericWrite]. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2017-12-01 19:27:42.307 WARN  NServiceBus.QueuePermissions Queue [private$\NEC.GeneralAgent.Publisher] is running with [NT AUTHORITY\ANONYMOUS LOGON] with AccessRights set to [WriteMessage]. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2017-12-01 19:27:42.311 INFO  NServiceBus.PerformanceCounterHelper NServiceBus performance counter for '# of msgs pulled from the input queue /sec' is not set up correctly. To rectify this problem, consult the NServiceBus performance counters documentation.
+2017-12-01 19:27:42.313 INFO  NServiceBus.PerformanceCounterHelper NServiceBus performance counter for '# of msgs successfully processed / sec' is not set up correctly. To rectify this problem, consult the NServiceBus performance counters documentation.
+2017-12-01 19:27:42.314 INFO  NServiceBus.PerformanceCounterHelper NServiceBus performance counter for '# of msgs failures / sec' is not set up correctly. To rectify this problem, consult the NServiceBus performance counters documentation.
+2017-12-01 19:27:43.422 INFO  NServiceBus.SubscriptionReceiverBehavior Subscribe from NEC.GeneralAgent.Subscriber@RIPANPC on message type Lateetud.NServiceBus.Common.Models.NECGeneralAgent.NECGeneralAgentResult, Lateetud.NServiceBus.Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+2017-12-01 19:27:43.422 INFO  NServiceBus.SubscriptionReceiverBehavior Subscribe from NEC.GeneralAgent.Subscriber@RIPANPC on message type Lateetud.NServiceBus.Common.Models.NECGeneralAgent.NECGeneralAgent, Lateetud.NServiceBus.Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+2017-12-01 19:28:39.700 INFO  NServiceBus.LicenseManager Selected active license from HKEY_LOCAL_MACHINE\SOFTWARE\ParticularSoftware
+License Expiration: 12 December 2017
+
+2017-12-01 19:28:39.704 INFO  NServiceBus.Persistence.Sql.Installer Executing 'E:\OfficeWork\ResearchNServiceBus\Research.Lateetud.NServiceBus\Lateetud.NServiceBus\bin\NServiceBus.Persistence.Sql\MsSqlServer\Subscription_Create.sql'
+2017-12-01 19:28:39.713 INFO  NServiceBus.Persistence.Sql.Installer Executing 'E:\OfficeWork\ResearchNServiceBus\Research.Lateetud.NServiceBus\Lateetud.NServiceBus\bin\NServiceBus.Persistence.Sql\MsSqlServer\Timeout_Create.sql'
+2017-12-01 19:28:39.739 INFO  NServiceBus.PerformanceMonitorUsersInstaller Did not attempt to add user 'RIPANPC\Dell' to group 'Performance Monitor Users' since the process is not running with elevated privileges. Processing will continue. To manually perform this action, run the following command from an admin console:
+net localgroup "Performance Monitor Users" "RIPANPC\Dell" /add
+2017-12-01 19:28:39.753 WARN  NServiceBus.QueuePermissions Queue [private$\error] is running with [Everyone] with AccessRights set to [GenericWrite]. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2017-12-01 19:28:39.758 WARN  NServiceBus.QueuePermissions Queue [private$\error] is running with [NT AUTHORITY\ANONYMOUS LOGON] with AccessRights set to [WriteMessage]. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2017-12-01 19:28:39.762 WARN  NServiceBus.QueuePermissions Queue [private$\NEC.GeneralAgent.Publisher.Timeouts] is running with [Everyone] with AccessRights set to [GenericWrite]. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2017-12-01 19:28:39.769 WARN  NServiceBus.QueuePermissions Queue [private$\NEC.GeneralAgent.Publisher.Timeouts] is running with [NT AUTHORITY\ANONYMOUS LOGON] with AccessRights set to [WriteMessage]. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2017-12-01 19:28:39.774 WARN  NServiceBus.QueuePermissions Queue [private$\NEC.GeneralAgent.Publisher.TimeoutsDispatcher] is running with [Everyone] with AccessRights set to [GenericWrite]. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2017-12-01 19:28:39.777 WARN  NServiceBus.QueuePermissions Queue [private$\NEC.GeneralAgent.Publisher.TimeoutsDispatcher] is running with [NT AUTHORITY\ANONYMOUS LOGON] with AccessRights set to [WriteMessage]. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2017-12-01 19:28:39.781 WARN  NServiceBus.QueuePermissions Queue [private$\NEC.GeneralAgent.Publisher.Retries] is running with [Everyone] with AccessRights set to [GenericWrite]. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2017-12-01 19:28:39.787 WARN  NServiceBus.QueuePermissions Queue [private$\NEC.GeneralAgent.Publisher.Retries] is running with [NT AUTHORITY\ANONYMOUS LOGON] with AccessRights set to [WriteMessage]. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2017-12-01 19:28:39.791 WARN  NServiceBus.QueuePermissions Queue [private$\NEC.GeneralAgent.Publisher] is running with [Everyone] with AccessRights set to [GenericWrite]. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2017-12-01 19:28:39.795 WARN  NServiceBus.QueuePermissions Queue [private$\NEC.GeneralAgent.Publisher] is running with [NT AUTHORITY\ANONYMOUS LOGON] with AccessRights set to [WriteMessage]. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2017-12-01 19:28:39.799 INFO  NServiceBus.PerformanceCounterHelper NServiceBus performance counter for '# of msgs pulled from the input queue /sec' is not set up correctly. To rectify this problem, consult the NServiceBus performance counters documentation.
+2017-12-01 19:28:39.804 INFO  NServiceBus.PerformanceCounterHelper NServiceBus performance counter for '# of msgs successfully processed / sec' is not set up correctly. To rectify this problem, consult the NServiceBus performance counters documentation.
+2017-12-01 19:28:39.807 INFO  NServiceBus.PerformanceCounterHelper NServiceBus performance counter for '# of msgs failures / sec' is not set up correctly. To rectify this problem, consult the NServiceBus performance counters documentation.

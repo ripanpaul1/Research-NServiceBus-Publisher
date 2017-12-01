@@ -138,7 +138,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="About.aspx" />
-    <Content Include="api\TestService.asmx" />
+    <Content Include="api\NECGeneralAgentService.asmx" />
     <Content Include="Contact.aspx" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
@@ -190,8 +190,8 @@
     <Content Include="Site.Mobile.Master" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="api\TestService.asmx.cs">
-      <DependentUpon>TestService.asmx</DependentUpon>
+    <Compile Include="api\NECGeneralAgentService.asmx.cs">
+      <DependentUpon>NECGeneralAgentService.asmx</DependentUpon>
       <SubType>Component</SubType>
     </Compile>
     <Compile Include="App_Start\BundleConfig.cs" />
