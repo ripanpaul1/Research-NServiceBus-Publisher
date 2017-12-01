@@ -28,11 +28,11 @@ namespace Lateetud.NServiceBus
             msmqsqldbconfig.StartEndpoint(endpointConfiguration).GetAwaiter().GetResult();
 
             // if queue does not exists, created & got pipeline
-            var endpointConfiguration = msmqsqldbconfig.ConfigureEndpoint("queue2");
+            endpointConfiguration = msmqsqldbconfig.ConfigureEndpoint("queue2");
             msmqsqldbconfig.StartEndpoint(endpointConfiguration).GetAwaiter().GetResult();
 
             // if queue does not exists, created & got pipeline
-            var endpointConfiguration = msmqsqldbconfig.ConfigureEndpoint("queue3");
+            endpointConfiguration = msmqsqldbconfig.ConfigureEndpoint("queue3");
             msmqsqldbconfig.StartEndpoint(endpointConfiguration).GetAwaiter().GetResult();
             
 
