@@ -33,6 +33,8 @@ namespace Lateetud.NServiceBus.api
             // if queue does not exists, created & got pipeline
             endpointConfiguration = msmqsqldbconfig.ConfigureEndpoint("queue3.publisher");
             msmqsqldbconfig.StartEndpoint(endpointConfiguration).GetAwaiter().GetResult();
+
+            return "Created all publishers queues";
         }
 
         [WebMethod]
