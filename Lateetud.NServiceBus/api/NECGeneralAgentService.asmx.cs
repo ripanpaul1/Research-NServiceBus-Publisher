@@ -37,6 +37,10 @@ namespace Lateetud.NServiceBus.api
                 var endpointConfiguration = msmqsqldbconfig.ConfigureEndpoint("NEC.GeneralAgent.Publisher");
                 var id = "ga-" + Guid.NewGuid();
                 msmqsqldbconfig.PublishedToBus(endpointConfiguration, new NECGeneralAgent { MessageID = id, Message = message });
+
+                BaseManager manager = new BaseManager();
+                manager.Insert(id, message);
+
                 return id;
             }
             catch(Exception err)
