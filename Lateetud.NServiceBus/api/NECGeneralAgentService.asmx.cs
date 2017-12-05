@@ -3,6 +3,8 @@ using System.Web.Services;
 using System.Configuration;
 using Lateetud.NServiceBus.Common;
 using Lateetud.NServiceBus.Common.Models.NECGeneralAgent;
+using Lateetud.NServiceBus.DAL;
+using System;
 
 namespace Lateetud.NServiceBus.api
 {
@@ -18,26 +20,43 @@ namespace Lateetud.NServiceBus.api
     {
         MsmqSqlDBConfiguration msmqsqldbconfig = new MsmqSqlDBConfiguration(ConfigurationManager.ConnectionStrings["SqlPersistence"].ConnectionString);
 
+        //[WebMethod]
+        //public string CreatePublisherQueues()
+        //{
+        //    var endpointConfiguration = msmqsqldbconfig.ConfigureEndpoint("NEC.GeneralAgent.Publisher");
+        //    msmqsqldbconfig.CreateEndpointInitializePipeline(endpointConfiguration).GetAwaiter().GetResult();
+        //    return "Created publishers queues";
+        //}
+
+
         [WebMethod]
-        public string CreatePublisherQueues()
+        public string CreateServiceRequest(string message)
         {
-            var endpointConfiguration = msmqsqldbconfig.ConfigureEndpoint("NEC.GeneralAgent.Publisher");
-            msmqsqldbconfig.CreateEndpointInitializePipeline(endpointConfiguration).GetAwaiter().GetResult();
-            return "Created publishers queues";
+            try
+            {
+                var endpointConfiguration = msmqsqldbconfig.ConfigureEndpoint("NEC.GeneralAgent.Publisher");
+                var id = "ga-" + Guid.NewGuid();
+                msmqsqldbconfig.PublishedToBus(endpointConfiguration, new NECGeneralAgent { MessageID = id, Message = message });
+                return id;
+            }
+            catch(Exception err)
+            {
+                return "Server is down. Please try after sometime.";
+            }
         }
 
         [WebMethod]
-        public string PublishNECGeneralAgent(string message)
+        public string CheckRequestStatus(string ID)
         {
-            var endpointConfiguration = msmqsqldbconfig.ConfigureEndpoint("NEC.GeneralAgent.Publisher");
-            return msmqsqldbconfig.PublishedToBus(endpointConfiguration, new NECGeneralAgent { Message = message });
-        }
-
-        [WebMethod]
-        public string PublishNECGeneralAgentResult(string message)
-        {
-            var endpointConfiguration = msmqsqldbconfig.ConfigureEndpoint("NEC.GeneralAgent.Publisher");
-            return msmqsqldbconfig.PublishedToBus(endpointConfiguration, new NECGeneralAgentResult { Message = message });
+            try
+            {
+                BaseManager bm = new BaseManager();
+                return bm.Select(ID).Status;
+            }
+            catch (Exception err)
+            {
+                return "Server is down. Please try after sometime.";
+            }
         }
 
     }

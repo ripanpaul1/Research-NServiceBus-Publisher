@@ -1,0 +1,300 @@
+﻿2017-12-04 17:17:18.186 INFO  DefaultFactory Logging to 'E:\OfficeWork\ResearchNServiceBus\Research.Lateetud.NServiceBus\Lateetud.NServiceBus\App_Data\' with level Info
+2017-12-04 17:17:18.679 INFO  NServiceBus.LicenseManager Selected active license from HKEY_LOCAL_MACHINE\SOFTWARE\ParticularSoftware
+License Expiration: 12 December 2017
+
+2017-12-04 17:19:00.425 INFO  NServiceBus.LicenseManager Selected active license from HKEY_LOCAL_MACHINE\SOFTWARE\ParticularSoftware
+License Expiration: 12 December 2017
+
+2017-12-04 17:21:39.182 INFO  NServiceBus.LicenseManager Selected active license from HKEY_LOCAL_MACHINE\SOFTWARE\ParticularSoftware
+License Expiration: 12 December 2017
+
+2017-12-04 17:22:11.996 INFO  NServiceBus.LicenseManager Selected active license from HKEY_LOCAL_MACHINE\SOFTWARE\ParticularSoftware
+License Expiration: 12 December 2017
+
+2017-12-04 17:23:35.981 INFO  NServiceBus.LicenseManager Selected active license from HKEY_LOCAL_MACHINE\SOFTWARE\ParticularSoftware
+License Expiration: 12 December 2017
+
+2017-12-04 17:27:55.435 INFO  DefaultFactory Logging to 'E:\OfficeWork\ResearchNServiceBus\Research.Lateetud.NServiceBus\Lateetud.NServiceBus\App_Data\' with level Info
+2017-12-04 17:27:55.628 INFO  NServiceBus.LicenseManager Selected active license from HKEY_LOCAL_MACHINE\SOFTWARE\ParticularSoftware
+License Expiration: 12 December 2017
+
+2017-12-04 17:28:51.765 INFO  NServiceBus.LicenseManager Selected active license from HKEY_LOCAL_MACHINE\SOFTWARE\ParticularSoftware
+License Expiration: 12 December 2017
+
+2017-12-04 17:40:28.649 INFO  DefaultFactory Logging to 'E:\OfficeWork\ResearchNServiceBus\Research.Lateetud.NServiceBus\Lateetud.NServiceBus\App_Data\' with level Info
+2017-12-04 17:40:28.993 INFO  NServiceBus.LicenseManager Selected active license from HKEY_LOCAL_MACHINE\SOFTWARE\ParticularSoftware
+License Expiration: 12 December 2017
+
+2017-12-04 17:42:08.075 INFO  DefaultFactory Logging to 'E:\OfficeWork\ResearchNServiceBus\Research.Lateetud.NServiceBus\Lateetud.NServiceBus\App_Data\' with level Info
+2017-12-04 17:42:08.294 INFO  NServiceBus.LicenseManager Selected active license from HKEY_LOCAL_MACHINE\SOFTWARE\ParticularSoftware
+License Expiration: 12 December 2017
+
+2017-12-04 17:42:08.454 INFO  NServiceBus.Persistence.Sql.Installer Executing 'E:\OfficeWork\ResearchNServiceBus\Research.Lateetud.NServiceBus\Lateetud.NServiceBus\bin\NServiceBus.Persistence.Sql\MsSqlServer\Subscription_Create.sql'
+2017-12-04 17:42:08.719 INFO  NServiceBus.Persistence.Sql.Installer Executing 'E:\OfficeWork\ResearchNServiceBus\Research.Lateetud.NServiceBus\Lateetud.NServiceBus\bin\NServiceBus.Persistence.Sql\MsSqlServer\Timeout_Create.sql'
+2017-12-04 17:42:08.825 INFO  NServiceBus.PerformanceMonitorUsersInstaller Did not attempt to add user 'IIS APPPOOL\LateetudNServiceBus' to group 'Performance Monitor Users' since the process is not running with elevated privileges. Processing will continue. To manually perform this action, run the following command from an admin console:
+net localgroup "Performance Monitor Users" "IIS APPPOOL\LateetudNServiceBus" /add
+2017-12-04 17:42:08.926 WARN  NServiceBus.QueuePermissions Queue [private$\error] is running with [Everyone] with AccessRights set to [GenericWrite]. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2017-12-04 17:42:08.929 WARN  NServiceBus.QueuePermissions Queue [private$\error] is running with [NT AUTHORITY\ANONYMOUS LOGON] with AccessRights set to [WriteMessage]. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2017-12-04 17:42:08.938 WARN  NServiceBus.QueuePermissions Queue [private$\NEC.GeneralAgent.Publisher.Timeouts] is running with [Everyone] with AccessRights set to [GenericWrite]. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2017-12-04 17:42:08.941 WARN  NServiceBus.QueuePermissions Queue [private$\NEC.GeneralAgent.Publisher.Timeouts] is running with [NT AUTHORITY\ANONYMOUS LOGON] with AccessRights set to [WriteMessage]. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2017-12-04 17:42:08.945 WARN  NServiceBus.QueuePermissions Queue [private$\NEC.GeneralAgent.Publisher.TimeoutsDispatcher] is running with [Everyone] with AccessRights set to [GenericWrite]. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2017-12-04 17:42:08.948 WARN  NServiceBus.QueuePermissions Queue [private$\NEC.GeneralAgent.Publisher.TimeoutsDispatcher] is running with [NT AUTHORITY\ANONYMOUS LOGON] with AccessRights set to [WriteMessage]. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2017-12-04 17:42:08.953 WARN  NServiceBus.QueuePermissions Queue [private$\NEC.GeneralAgent.Publisher.Retries] is running with [Everyone] with AccessRights set to [GenericWrite]. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2017-12-04 17:42:08.956 WARN  NServiceBus.QueuePermissions Queue [private$\NEC.GeneralAgent.Publisher.Retries] is running with [NT AUTHORITY\ANONYMOUS LOGON] with AccessRights set to [WriteMessage]. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2017-12-04 17:42:08.960 WARN  NServiceBus.QueuePermissions Queue [private$\NEC.GeneralAgent.Publisher] is running with [Everyone] with AccessRights set to [GenericWrite]. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2017-12-04 17:42:08.964 WARN  NServiceBus.QueuePermissions Queue [private$\NEC.GeneralAgent.Publisher] is running with [NT AUTHORITY\ANONYMOUS LOGON] with AccessRights set to [WriteMessage]. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2017-12-04 17:42:08.969 INFO  NServiceBus.PerformanceCounterHelper NServiceBus performance counter for '# of msgs pulled from the input queue /sec' is not set up correctly. To rectify this problem, consult the NServiceBus performance counters documentation.
+2017-12-04 17:42:08.971 INFO  NServiceBus.PerformanceCounterHelper NServiceBus performance counter for '# of msgs successfully processed / sec' is not set up correctly. To rectify this problem, consult the NServiceBus performance counters documentation.
+2017-12-04 17:42:08.972 INFO  NServiceBus.PerformanceCounterHelper NServiceBus performance counter for '# of msgs failures / sec' is not set up correctly. To rectify this problem, consult the NServiceBus performance counters documentation.
+2017-12-04 17:42:09.094 WARN  NServiceBus.MessagePump MSMQ receive operation failed
+System.Messaging.MessageQueueException (0x80004005): Access to Message Queuing system is denied.
+   at System.Messaging.MessageQueue.MQCacheableInfo.get_ReadHandle()
+   at System.Messaging.MessageEnumerator.get_Handle()
+   at System.Messaging.MessageEnumerator.MoveNext(TimeSpan timeout)
+   at NServiceBus.MessagePump.<InnerProcessMessages>d__6.MoveNext() in C:\BuildAgent\work\a93f853f0c1b9532\src\NServiceBus.Core\Transports\Msmq\MessagePump.cs:line 129
+2017-12-04 17:42:09.094 WARN  NServiceBus.MessagePump MSMQ receive operation failed
+System.Messaging.MessageQueueException (0x80004005): Access to Message Queuing system is denied.
+   at System.Messaging.MessageQueue.MQCacheableInfo.get_ReadHandle()
+   at System.Messaging.MessageEnumerator.get_Handle()
+   at System.Messaging.MessageEnumerator.MoveNext(TimeSpan timeout)
+   at NServiceBus.MessagePump.<InnerProcessMessages>d__6.MoveNext() in C:\BuildAgent\work\a93f853f0c1b9532\src\NServiceBus.Core\Transports\Msmq\MessagePump.cs:line 129
+2017-12-04 17:42:09.094 WARN  NServiceBus.MessagePump MSMQ receive operation failed
+System.Messaging.MessageQueueException (0x80004005): Access to Message Queuing system is denied.
+   at System.Messaging.MessageQueue.MQCacheableInfo.get_ReadHandle()
+   at System.Messaging.MessageEnumerator.get_Handle()
+   at System.Messaging.MessageEnumerator.MoveNext(TimeSpan timeout)
+   at NServiceBus.MessagePump.<InnerProcessMessages>d__6.MoveNext() in C:\BuildAgent\work\a93f853f0c1b9532\src\NServiceBus.Core\Transports\Msmq\MessagePump.cs:line 129
+2017-12-04 17:42:09.094 WARN  NServiceBus.MessagePump MSMQ receive operation failed
+System.Messaging.MessageQueueException (0x80004005): Access to Message Queuing system is denied.
+   at System.Messaging.MessageQueue.MQCacheableInfo.get_ReadHandle()
+   at System.Messaging.MessageEnumerator.get_Handle()
+   at System.Messaging.MessageEnumerator.MoveNext(TimeSpan timeout)
+   at NServiceBus.MessagePump.<InnerProcessMessages>d__6.MoveNext() in C:\BuildAgent\work\a93f853f0c1b9532\src\NServiceBus.Core\Transports\Msmq\MessagePump.cs:line 129
+2017-12-04 17:42:09.135 WARN  NServiceBus.RepeatedFailuresOverTimeCircuitBreaker The circuit breaker for MsmqPeek is now in the armed state
+2017-12-04 17:42:09.120 WARN  NServiceBus.RepeatedFailuresOverTimeCircuitBreaker The circuit breaker for MsmqPeek is now in the armed state
+2017-12-04 17:42:09.120 WARN  NServiceBus.RepeatedFailuresOverTimeCircuitBreaker The circuit breaker for MsmqPeek is now in the armed state
+2017-12-04 17:42:09.120 WARN  NServiceBus.RepeatedFailuresOverTimeCircuitBreaker The circuit breaker for MsmqPeek is now in the armed state
+2017-12-04 17:42:09.345 INFO  NServiceBus.Unicast.UnicastBus Initiating shutdown.
+2017-12-04 17:42:10.198 INFO  NServiceBus.Unicast.UnicastBus Shutdown complete.
+2017-12-04 17:59:28.147 INFO  DefaultFactory Logging to 'E:\OfficeWork\ResearchNServiceBus\Research.Lateetud.NServiceBus\Lateetud.NServiceBus\App_Data\' with level Info
+2017-12-04 17:59:28.340 INFO  NServiceBus.LicenseManager Selected active license from HKEY_LOCAL_MACHINE\SOFTWARE\ParticularSoftware
+License Expiration: 12 December 2017
+
+2017-12-04 17:59:28.423 INFO  NServiceBus.Persistence.Sql.Installer Executing 'E:\OfficeWork\ResearchNServiceBus\Research.Lateetud.NServiceBus\Lateetud.NServiceBus\bin\NServiceBus.Persistence.Sql\MsSqlServer\Subscription_Create.sql'
+2017-12-04 17:59:28.449 INFO  NServiceBus.Persistence.Sql.Installer Executing 'E:\OfficeWork\ResearchNServiceBus\Research.Lateetud.NServiceBus\Lateetud.NServiceBus\bin\NServiceBus.Persistence.Sql\MsSqlServer\Timeout_Create.sql'
+2017-12-04 17:59:28.476 INFO  NServiceBus.PerformanceMonitorUsersInstaller Did not attempt to add user 'IIS APPPOOL\LateetudNServiceBus' to group 'Performance Monitor Users' since the process is not running with elevated privileges. Processing will continue. To manually perform this action, run the following command from an admin console:
+net localgroup "Performance Monitor Users" "IIS APPPOOL\LateetudNServiceBus" /add
+2017-12-04 17:59:28.547 WARN  NServiceBus.QueuePermissions Queue [private$\error] is running with [Everyone] with AccessRights set to [GenericWrite]. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2017-12-04 17:59:28.550 WARN  NServiceBus.QueuePermissions Queue [private$\error] is running with [NT AUTHORITY\ANONYMOUS LOGON] with AccessRights set to [WriteMessage]. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2017-12-04 17:59:28.557 WARN  NServiceBus.QueuePermissions Queue [private$\NEC.GeneralAgent.Publisher.Timeouts] is running with [Everyone] with AccessRights set to [GenericWrite]. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2017-12-04 17:59:28.559 WARN  NServiceBus.QueuePermissions Queue [private$\NEC.GeneralAgent.Publisher.Timeouts] is running with [NT AUTHORITY\ANONYMOUS LOGON] with AccessRights set to [WriteMessage]. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2017-12-04 17:59:28.563 WARN  NServiceBus.QueuePermissions Queue [private$\NEC.GeneralAgent.Publisher.TimeoutsDispatcher] is running with [Everyone] with AccessRights set to [GenericWrite]. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2017-12-04 17:59:28.566 WARN  NServiceBus.QueuePermissions Queue [private$\NEC.GeneralAgent.Publisher.TimeoutsDispatcher] is running with [NT AUTHORITY\ANONYMOUS LOGON] with AccessRights set to [WriteMessage]. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2017-12-04 17:59:28.570 WARN  NServiceBus.QueuePermissions Queue [private$\NEC.GeneralAgent.Publisher.Retries] is running with [Everyone] with AccessRights set to [GenericWrite]. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2017-12-04 17:59:28.573 WARN  NServiceBus.QueuePermissions Queue [private$\NEC.GeneralAgent.Publisher.Retries] is running with [NT AUTHORITY\ANONYMOUS LOGON] with AccessRights set to [WriteMessage]. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2017-12-04 17:59:28.576 WARN  NServiceBus.QueuePermissions Queue [private$\NEC.GeneralAgent.Publisher] is running with [Everyone] with AccessRights set to [GenericWrite]. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2017-12-04 17:59:28.579 WARN  NServiceBus.QueuePermissions Queue [private$\NEC.GeneralAgent.Publisher] is running with [NT AUTHORITY\ANONYMOUS LOGON] with AccessRights set to [WriteMessage]. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2017-12-04 17:59:28.585 INFO  NServiceBus.PerformanceCounterHelper NServiceBus performance counter for '# of msgs pulled from the input queue /sec' is not set up correctly. To rectify this problem, consult the NServiceBus performance counters documentation.
+2017-12-04 17:59:28.587 INFO  NServiceBus.PerformanceCounterHelper NServiceBus performance counter for '# of msgs successfully processed / sec' is not set up correctly. To rectify this problem, consult the NServiceBus performance counters documentation.
+2017-12-04 17:59:28.589 INFO  NServiceBus.PerformanceCounterHelper NServiceBus performance counter for '# of msgs failures / sec' is not set up correctly. To rectify this problem, consult the NServiceBus performance counters documentation.
+2017-12-04 17:59:28.629 WARN  NServiceBus.MessagePump MSMQ receive operation failed
+System.Messaging.MessageQueueException (0x80004005): Access to Message Queuing system is denied.
+   at System.Messaging.MessageQueue.MQCacheableInfo.get_ReadHandle()
+   at System.Messaging.MessageEnumerator.get_Handle()
+   at System.Messaging.MessageEnumerator.MoveNext(TimeSpan timeout)
+   at NServiceBus.MessagePump.<InnerProcessMessages>d__6.MoveNext() in C:\BuildAgent\work\a93f853f0c1b9532\src\NServiceBus.Core\Transports\Msmq\MessagePump.cs:line 129
+2017-12-04 17:59:28.638 WARN  NServiceBus.MessagePump MSMQ receive operation failed
+System.Messaging.MessageQueueException (0x80004005): Access to Message Queuing system is denied.
+   at System.Messaging.MessageQueue.MQCacheableInfo.get_ReadHandle()
+   at System.Messaging.MessageEnumerator.get_Handle()
+   at System.Messaging.MessageEnumerator.MoveNext(TimeSpan timeout)
+   at NServiceBus.MessagePump.<InnerProcessMessages>d__6.MoveNext() in C:\BuildAgent\work\a93f853f0c1b9532\src\NServiceBus.Core\Transports\Msmq\MessagePump.cs:line 129
+2017-12-04 17:59:28.694 WARN  NServiceBus.RepeatedFailuresOverTimeCircuitBreaker The circuit breaker for MsmqPeek is now in the armed state
+2017-12-04 17:59:28.696 WARN  NServiceBus.MessagePump MSMQ receive operation failed
+System.Messaging.MessageQueueException (0x80004005): Access to Message Queuing system is denied.
+   at System.Messaging.MessageQueue.MQCacheableInfo.get_ReadHandle()
+   at System.Messaging.MessageEnumerator.get_Handle()
+   at System.Messaging.MessageEnumerator.MoveNext(TimeSpan timeout)
+   at NServiceBus.MessagePump.<InnerProcessMessages>d__6.MoveNext() in C:\BuildAgent\work\a93f853f0c1b9532\src\NServiceBus.Core\Transports\Msmq\MessagePump.cs:line 129
+2017-12-04 17:59:28.664 WARN  NServiceBus.RepeatedFailuresOverTimeCircuitBreaker The circuit breaker for MsmqPeek is now in the armed state
+2017-12-04 17:59:28.696 WARN  NServiceBus.MessagePump MSMQ receive operation failed
+System.Messaging.MessageQueueException (0x80004005): Access to Message Queuing system is denied.
+   at System.Messaging.MessageQueue.MQCacheableInfo.get_ReadHandle()
+   at System.Messaging.MessageEnumerator.get_Handle()
+   at System.Messaging.MessageEnumerator.MoveNext(TimeSpan timeout)
+   at NServiceBus.MessagePump.<InnerProcessMessages>d__6.MoveNext() in C:\BuildAgent\work\a93f853f0c1b9532\src\NServiceBus.Core\Transports\Msmq\MessagePump.cs:line 129
+2017-12-04 17:59:28.853 WARN  NServiceBus.RepeatedFailuresOverTimeCircuitBreaker The circuit breaker for MsmqPeek is now in the armed state
+2017-12-04 17:59:28.773 WARN  NServiceBus.RepeatedFailuresOverTimeCircuitBreaker The circuit breaker for MsmqPeek is now in the armed state
+2017-12-04 17:59:28.990 INFO  NServiceBus.Unicast.UnicastBus Initiating shutdown.
+2017-12-04 17:59:29.935 INFO  NServiceBus.Unicast.UnicastBus Shutdown complete.
+2017-12-04 18:05:03.153 INFO  DefaultFactory Logging to 'E:\OfficeWork\ResearchNServiceBus\Research.Lateetud.NServiceBus\Lateetud.NServiceBus\App_Data\' with level Info
+2017-12-04 18:05:03.365 INFO  NServiceBus.LicenseManager Selected active license from HKEY_LOCAL_MACHINE\SOFTWARE\ParticularSoftware
+License Expiration: 12 December 2017
+
+2017-12-04 18:05:03.442 INFO  NServiceBus.Persistence.Sql.Installer Executing 'E:\OfficeWork\ResearchNServiceBus\Research.Lateetud.NServiceBus\Lateetud.NServiceBus\bin\NServiceBus.Persistence.Sql\MsSqlServer\Subscription_Create.sql'
+2017-12-04 18:05:03.466 INFO  NServiceBus.Persistence.Sql.Installer Executing 'E:\OfficeWork\ResearchNServiceBus\Research.Lateetud.NServiceBus\Lateetud.NServiceBus\bin\NServiceBus.Persistence.Sql\MsSqlServer\Timeout_Create.sql'
+2017-12-04 18:05:05.068 INFO  NServiceBus.PerformanceMonitorUsersInstaller Did not attempt to add user 'IIS APPPOOL\LateetudNServiceBus' to group 'Performance Monitor Users' since the process is not running with elevated privileges. Processing will continue. To manually perform this action, run the following command from an admin console:
+net localgroup "Performance Monitor Users" "IIS APPPOOL\LateetudNServiceBus" /add
+2017-12-04 18:05:05.174 WARN  NServiceBus.QueuePermissions Queue [private$\error] is running with [Everyone] with AccessRights set to [GenericWrite]. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2017-12-04 18:05:05.177 WARN  NServiceBus.QueuePermissions Queue [private$\error] is running with [NT AUTHORITY\ANONYMOUS LOGON] with AccessRights set to [WriteMessage]. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2017-12-04 18:05:05.184 WARN  NServiceBus.QueuePermissions Queue [private$\NEC.GeneralAgent.Publisher.Timeouts] is running with [Everyone] with AccessRights set to [GenericWrite]. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2017-12-04 18:05:05.187 WARN  NServiceBus.QueuePermissions Queue [private$\NEC.GeneralAgent.Publisher.Timeouts] is running with [NT AUTHORITY\ANONYMOUS LOGON] with AccessRights set to [WriteMessage]. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2017-12-04 18:05:05.191 WARN  NServiceBus.QueuePermissions Queue [private$\NEC.GeneralAgent.Publisher.TimeoutsDispatcher] is running with [Everyone] with AccessRights set to [GenericWrite]. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2017-12-04 18:05:05.194 WARN  NServiceBus.QueuePermissions Queue [private$\NEC.GeneralAgent.Publisher.TimeoutsDispatcher] is running with [NT AUTHORITY\ANONYMOUS LOGON] with AccessRights set to [WriteMessage]. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2017-12-04 18:05:05.197 WARN  NServiceBus.QueuePermissions Queue [private$\NEC.GeneralAgent.Publisher.Retries] is running with [Everyone] with AccessRights set to [GenericWrite]. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2017-12-04 18:05:05.201 WARN  NServiceBus.QueuePermissions Queue [private$\NEC.GeneralAgent.Publisher.Retries] is running with [NT AUTHORITY\ANONYMOUS LOGON] with AccessRights set to [WriteMessage]. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2017-12-04 18:05:05.204 WARN  NServiceBus.QueuePermissions Queue [private$\NEC.GeneralAgent.Publisher] is running with [Everyone] with AccessRights set to [GenericWrite]. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2017-12-04 18:05:05.208 WARN  NServiceBus.QueuePermissions Queue [private$\NEC.GeneralAgent.Publisher] is running with [NT AUTHORITY\ANONYMOUS LOGON] with AccessRights set to [WriteMessage]. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2017-12-04 18:05:05.213 INFO  NServiceBus.PerformanceCounterHelper NServiceBus performance counter for '# of msgs pulled from the input queue /sec' is not set up correctly. To rectify this problem, consult the NServiceBus performance counters documentation.
+2017-12-04 18:05:05.215 INFO  NServiceBus.PerformanceCounterHelper NServiceBus performance counter for '# of msgs successfully processed / sec' is not set up correctly. To rectify this problem, consult the NServiceBus performance counters documentation.
+2017-12-04 18:05:05.217 INFO  NServiceBus.PerformanceCounterHelper NServiceBus performance counter for '# of msgs failures / sec' is not set up correctly. To rectify this problem, consult the NServiceBus performance counters documentation.
+2017-12-04 18:05:36.550 INFO  NServiceBus.SubscriptionReceiverBehavior Subscribe from NEC.GeneralAgent.Subscriber@RIPANPC on message type Lateetud.NServiceBus.Common.Models.NECGeneralAgent.NECGeneralAgent, Lateetud.NServiceBus.Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+2017-12-04 18:06:20.030 INFO  NServiceBus.LicenseManager Selected active license from HKEY_LOCAL_MACHINE\SOFTWARE\ParticularSoftware
+License Expiration: 12 December 2017
+
+2017-12-04 18:06:20.035 INFO  NServiceBus.Persistence.Sql.Installer Executing 'E:\OfficeWork\ResearchNServiceBus\Research.Lateetud.NServiceBus\Lateetud.NServiceBus\bin\NServiceBus.Persistence.Sql\MsSqlServer\Subscription_Create.sql'
+2017-12-04 18:06:20.053 INFO  NServiceBus.Persistence.Sql.Installer Executing 'E:\OfficeWork\ResearchNServiceBus\Research.Lateetud.NServiceBus\Lateetud.NServiceBus\bin\NServiceBus.Persistence.Sql\MsSqlServer\Timeout_Create.sql'
+2017-12-04 18:06:20.082 INFO  NServiceBus.PerformanceMonitorUsersInstaller Did not attempt to add user 'IIS APPPOOL\LateetudNServiceBus' to group 'Performance Monitor Users' since the process is not running with elevated privileges. Processing will continue. To manually perform this action, run the following command from an admin console:
+net localgroup "Performance Monitor Users" "IIS APPPOOL\LateetudNServiceBus" /add
+2017-12-04 18:06:20.105 WARN  NServiceBus.QueuePermissions Queue [private$\error] is running with [Everyone] with AccessRights set to [GenericWrite]. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2017-12-04 18:06:20.108 WARN  NServiceBus.QueuePermissions Queue [private$\error] is running with [NT AUTHORITY\ANONYMOUS LOGON] with AccessRights set to [WriteMessage]. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2017-12-04 18:06:20.114 WARN  NServiceBus.QueuePermissions Queue [private$\NEC.GeneralAgent.Publisher.Timeouts] is running with [Everyone] with AccessRights set to [GenericWrite]. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2017-12-04 18:06:20.118 WARN  NServiceBus.QueuePermissions Queue [private$\NEC.GeneralAgent.Publisher.Timeouts] is running with [NT AUTHORITY\ANONYMOUS LOGON] with AccessRights set to [WriteMessage]. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2017-12-04 18:06:20.125 WARN  NServiceBus.QueuePermissions Queue [private$\NEC.GeneralAgent.Publisher.TimeoutsDispatcher] is running with [Everyone] with AccessRights set to [GenericWrite]. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2017-12-04 18:06:20.130 WARN  NServiceBus.QueuePermissions Queue [private$\NEC.GeneralAgent.Publisher.TimeoutsDispatcher] is running with [NT AUTHORITY\ANONYMOUS LOGON] with AccessRights set to [WriteMessage]. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2017-12-04 18:06:20.134 WARN  NServiceBus.QueuePermissions Queue [private$\NEC.GeneralAgent.Publisher.Retries] is running with [Everyone] with AccessRights set to [GenericWrite]. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2017-12-04 18:06:20.138 WARN  NServiceBus.QueuePermissions Queue [private$\NEC.GeneralAgent.Publisher.Retries] is running with [NT AUTHORITY\ANONYMOUS LOGON] with AccessRights set to [WriteMessage]. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2017-12-04 18:06:20.142 WARN  NServiceBus.QueuePermissions Queue [private$\NEC.GeneralAgent.Publisher] is running with [Everyone] with AccessRights set to [GenericWrite]. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2017-12-04 18:06:20.147 WARN  NServiceBus.QueuePermissions Queue [private$\NEC.GeneralAgent.Publisher] is running with [NT AUTHORITY\ANONYMOUS LOGON] with AccessRights set to [WriteMessage]. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2017-12-04 18:06:20.149 INFO  NServiceBus.PerformanceCounterHelper NServiceBus performance counter for '# of msgs pulled from the input queue /sec' is not set up correctly. To rectify this problem, consult the NServiceBus performance counters documentation.
+2017-12-04 18:06:20.151 INFO  NServiceBus.PerformanceCounterHelper NServiceBus performance counter for '# of msgs successfully processed / sec' is not set up correctly. To rectify this problem, consult the NServiceBus performance counters documentation.
+2017-12-04 18:06:20.152 INFO  NServiceBus.PerformanceCounterHelper NServiceBus performance counter for '# of msgs failures / sec' is not set up correctly. To rectify this problem, consult the NServiceBus performance counters documentation.
+2017-12-04 18:06:20.310 INFO  NServiceBus.Unicast.UnicastBus Initiating shutdown.
+2017-12-04 18:06:20.332 INFO  NServiceBus.Unicast.UnicastBus Shutdown complete.
+2017-12-04 18:06:41.076 INFO  NServiceBus.SubscriptionReceiverBehavior Subscribe from NEC.GeneralAgent.Subscriber@RIPANPC on message type Lateetud.NServiceBus.Common.Models.NECGeneralAgent.NECGeneralAgent, Lateetud.NServiceBus.Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+2017-12-04 18:09:47.585 ERROR NServiceBus.MessagePump MSMQ Message pump failed
+System.Threading.ThreadAbortException: Thread was being aborted.
+   at NServiceBus.MessagePump.<InnerProcessMessages>d__6.MoveNext() in C:\BuildAgent\work\a93f853f0c1b9532\src\NServiceBus.Core\Transports\Msmq\MessagePump.cs:line 134
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at NServiceBus.MessagePump.<ProcessMessages>d__5.MoveNext() in C:\BuildAgent\work\a93f853f0c1b9532\src\NServiceBus.Core\Transports\Msmq\MessagePump.cs:line 106
+2017-12-04 18:09:47.602 WARN  NServiceBus.RepeatedFailuresOverTimeCircuitBreaker The circuit breaker for MsmqPeek is now in the armed state
+2017-12-04 18:10:00.061 INFO  DefaultFactory Logging to 'E:\OfficeWork\ResearchNServiceBus\Research.Lateetud.NServiceBus\Lateetud.NServiceBus\App_Data\' with level Info
+2017-12-04 18:10:00.264 INFO  NServiceBus.LicenseManager Selected active license from HKEY_LOCAL_MACHINE\SOFTWARE\ParticularSoftware
+License Expiration: 12 December 2017
+
+2017-12-04 18:10:00.352 INFO  NServiceBus.Persistence.Sql.Installer Executing 'E:\OfficeWork\ResearchNServiceBus\Research.Lateetud.NServiceBus\Lateetud.NServiceBus\bin\NServiceBus.Persistence.Sql\MsSqlServer\Subscription_Create.sql'
+2017-12-04 18:10:00.382 INFO  NServiceBus.Persistence.Sql.Installer Executing 'E:\OfficeWork\ResearchNServiceBus\Research.Lateetud.NServiceBus\Lateetud.NServiceBus\bin\NServiceBus.Persistence.Sql\MsSqlServer\Timeout_Create.sql'
+2017-12-04 18:10:00.422 INFO  NServiceBus.PerformanceMonitorUsersInstaller Did not attempt to add user 'IIS APPPOOL\LateetudNServiceBus' to group 'Performance Monitor Users' since the process is not running with elevated privileges. Processing will continue. To manually perform this action, run the following command from an admin console:
+net localgroup "Performance Monitor Users" "IIS APPPOOL\LateetudNServiceBus" /add
+2017-12-04 18:10:00.496 WARN  NServiceBus.QueuePermissions Queue [private$\error] is running with [Everyone] with AccessRights set to [GenericWrite]. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2017-12-04 18:10:00.499 WARN  NServiceBus.QueuePermissions Queue [private$\error] is running with [NT AUTHORITY\ANONYMOUS LOGON] with AccessRights set to [WriteMessage]. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2017-12-04 18:10:00.510 WARN  NServiceBus.QueuePermissions Queue [private$\NEC.GeneralAgent.Publisher.Timeouts] is running with [Everyone] with AccessRights set to [GenericWrite]. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2017-12-04 18:10:00.519 WARN  NServiceBus.QueuePermissions Queue [private$\NEC.GeneralAgent.Publisher.Timeouts] is running with [NT AUTHORITY\ANONYMOUS LOGON] with AccessRights set to [WriteMessage]. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2017-12-04 18:10:00.528 WARN  NServiceBus.QueuePermissions Queue [private$\NEC.GeneralAgent.Publisher.TimeoutsDispatcher] is running with [Everyone] with AccessRights set to [GenericWrite]. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2017-12-04 18:10:00.533 WARN  NServiceBus.QueuePermissions Queue [private$\NEC.GeneralAgent.Publisher.TimeoutsDispatcher] is running with [NT AUTHORITY\ANONYMOUS LOGON] with AccessRights set to [WriteMessage]. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2017-12-04 18:10:00.542 WARN  NServiceBus.QueuePermissions Queue [private$\NEC.GeneralAgent.Publisher.Retries] is running with [Everyone] with AccessRights set to [GenericWrite]. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2017-12-04 18:10:00.546 WARN  NServiceBus.QueuePermissions Queue [private$\NEC.GeneralAgent.Publisher.Retries] is running with [NT AUTHORITY\ANONYMOUS LOGON] with AccessRights set to [WriteMessage]. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2017-12-04 18:10:00.555 WARN  NServiceBus.QueuePermissions Queue [private$\NEC.GeneralAgent.Publisher] is running with [Everyone] with AccessRights set to [GenericWrite]. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2017-12-04 18:10:00.561 WARN  NServiceBus.QueuePermissions Queue [private$\NEC.GeneralAgent.Publisher] is running with [NT AUTHORITY\ANONYMOUS LOGON] with AccessRights set to [WriteMessage]. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2017-12-04 18:10:00.569 INFO  NServiceBus.PerformanceCounterHelper NServiceBus performance counter for '# of msgs pulled from the input queue /sec' is not set up correctly. To rectify this problem, consult the NServiceBus performance counters documentation.
+2017-12-04 18:10:00.571 INFO  NServiceBus.PerformanceCounterHelper NServiceBus performance counter for '# of msgs successfully processed / sec' is not set up correctly. To rectify this problem, consult the NServiceBus performance counters documentation.
+2017-12-04 18:10:00.573 INFO  NServiceBus.PerformanceCounterHelper NServiceBus performance counter for '# of msgs failures / sec' is not set up correctly. To rectify this problem, consult the NServiceBus performance counters documentation.
+2017-12-04 18:10:00.717 INFO  NServiceBus.Unicast.UnicastBus Initiating shutdown.
+2017-12-04 18:10:00.757 INFO  NServiceBus.Unicast.UnicastBus Shutdown complete.
+2017-12-04 18:12:26.124 INFO  DefaultFactory Logging to 'E:\OfficeWork\ResearchNServiceBus\Research.Lateetud.NServiceBus\Lateetud.NServiceBus\App_Data\' with level Info
+2017-12-04 18:12:26.315 INFO  NServiceBus.LicenseManager Selected active license from HKEY_LOCAL_MACHINE\SOFTWARE\ParticularSoftware
+License Expiration: 12 December 2017
+
+2017-12-04 18:12:26.388 INFO  NServiceBus.Persistence.Sql.Installer Executing 'E:\OfficeWork\ResearchNServiceBus\Research.Lateetud.NServiceBus\Lateetud.NServiceBus\bin\NServiceBus.Persistence.Sql\MsSqlServer\Subscription_Create.sql'
+2017-12-04 18:12:26.423 INFO  NServiceBus.Persistence.Sql.Installer Executing 'E:\OfficeWork\ResearchNServiceBus\Research.Lateetud.NServiceBus\Lateetud.NServiceBus\bin\NServiceBus.Persistence.Sql\MsSqlServer\Timeout_Create.sql'
+2017-12-04 18:12:26.452 INFO  NServiceBus.PerformanceMonitorUsersInstaller Did not attempt to add user 'IIS APPPOOL\LateetudNServiceBus' to group 'Performance Monitor Users' since the process is not running with elevated privileges. Processing will continue. To manually perform this action, run the following command from an admin console:
+net localgroup "Performance Monitor Users" "IIS APPPOOL\LateetudNServiceBus" /add
+2017-12-04 18:12:26.526 WARN  NServiceBus.QueuePermissions Queue [private$\error] is running with [Everyone] with AccessRights set to [GenericWrite]. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2017-12-04 18:12:26.529 WARN  NServiceBus.QueuePermissions Queue [private$\error] is running with [NT AUTHORITY\ANONYMOUS LOGON] with AccessRights set to [WriteMessage]. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2017-12-04 18:12:26.536 WARN  NServiceBus.QueuePermissions Queue [private$\NEC.GeneralAgent.Publisher.Timeouts] is running with [Everyone] with AccessRights set to [GenericWrite]. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2017-12-04 18:12:26.539 WARN  NServiceBus.QueuePermissions Queue [private$\NEC.GeneralAgent.Publisher.Timeouts] is running with [NT AUTHORITY\ANONYMOUS LOGON] with AccessRights set to [WriteMessage]. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2017-12-04 18:12:26.543 WARN  NServiceBus.QueuePermissions Queue [private$\NEC.GeneralAgent.Publisher.TimeoutsDispatcher] is running with [Everyone] with AccessRights set to [GenericWrite]. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2017-12-04 18:12:26.546 WARN  NServiceBus.QueuePermissions Queue [private$\NEC.GeneralAgent.Publisher.TimeoutsDispatcher] is running with [NT AUTHORITY\ANONYMOUS LOGON] with AccessRights set to [WriteMessage]. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2017-12-04 18:12:26.552 WARN  NServiceBus.QueuePermissions Queue [private$\NEC.GeneralAgent.Publisher.Retries] is running with [Everyone] with AccessRights set to [GenericWrite]. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2017-12-04 18:12:26.556 WARN  NServiceBus.QueuePermissions Queue [private$\NEC.GeneralAgent.Publisher.Retries] is running with [NT AUTHORITY\ANONYMOUS LOGON] with AccessRights set to [WriteMessage]. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2017-12-04 18:12:26.561 WARN  NServiceBus.QueuePermissions Queue [private$\NEC.GeneralAgent.Publisher] is running with [Everyone] with AccessRights set to [GenericWrite]. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2017-12-04 18:12:26.564 WARN  NServiceBus.QueuePermissions Queue [private$\NEC.GeneralAgent.Publisher] is running with [NT AUTHORITY\ANONYMOUS LOGON] with AccessRights set to [WriteMessage]. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2017-12-04 18:12:26.569 INFO  NServiceBus.PerformanceCounterHelper NServiceBus performance counter for '# of msgs pulled from the input queue /sec' is not set up correctly. To rectify this problem, consult the NServiceBus performance counters documentation.
+2017-12-04 18:12:26.571 INFO  NServiceBus.PerformanceCounterHelper NServiceBus performance counter for '# of msgs successfully processed / sec' is not set up correctly. To rectify this problem, consult the NServiceBus performance counters documentation.
+2017-12-04 18:12:26.572 INFO  NServiceBus.PerformanceCounterHelper NServiceBus performance counter for '# of msgs failures / sec' is not set up correctly. To rectify this problem, consult the NServiceBus performance counters documentation.
+2017-12-04 18:12:26.732 INFO  NServiceBus.Unicast.UnicastBus Initiating shutdown.
+2017-12-04 18:12:26.759 INFO  NServiceBus.Unicast.UnicastBus Shutdown complete.
+2017-12-04 18:45:48.454 INFO  DefaultFactory Logging to 'E:\OfficeWork\ResearchNServiceBus\Research.Lateetud.NServiceBus\Lateetud.NServiceBus\App_Data\' with level Info
+2017-12-04 18:45:48.689 INFO  NServiceBus.LicenseManager Selected active license from HKEY_LOCAL_MACHINE\SOFTWARE\ParticularSoftware
+License Expiration: 12 December 2017
+
+2017-12-04 18:45:48.783 INFO  NServiceBus.Persistence.Sql.Installer Executing 'E:\OfficeWork\ResearchNServiceBus\Research.Lateetud.NServiceBus\Lateetud.NServiceBus\bin\NServiceBus.Persistence.Sql\MsSqlServer\Subscription_Create.sql'
+2017-12-04 18:45:48.812 INFO  NServiceBus.Persistence.Sql.Installer Executing 'E:\OfficeWork\ResearchNServiceBus\Research.Lateetud.NServiceBus\Lateetud.NServiceBus\bin\NServiceBus.Persistence.Sql\MsSqlServer\Timeout_Create.sql'
+2017-12-04 18:45:48.847 INFO  NServiceBus.PerformanceMonitorUsersInstaller Did not attempt to add user 'IIS APPPOOL\LateetudNServiceBus' to group 'Performance Monitor Users' since the process is not running with elevated privileges. Processing will continue. To manually perform this action, run the following command from an admin console:
+net localgroup "Performance Monitor Users" "IIS APPPOOL\LateetudNServiceBus" /add
+2017-12-04 18:45:48.930 WARN  NServiceBus.QueuePermissions Queue [private$\error] is running with [Everyone] with AccessRights set to [GenericWrite]. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2017-12-04 18:45:48.933 WARN  NServiceBus.QueuePermissions Queue [private$\error] is running with [NT AUTHORITY\ANONYMOUS LOGON] with AccessRights set to [WriteMessage]. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2017-12-04 18:45:48.940 WARN  NServiceBus.QueuePermissions Queue [private$\NEC.GeneralAgent.Publisher.Timeouts] is running with [Everyone] with AccessRights set to [GenericWrite]. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2017-12-04 18:45:48.945 WARN  NServiceBus.QueuePermissions Queue [private$\NEC.GeneralAgent.Publisher.Timeouts] is running with [NT AUTHORITY\ANONYMOUS LOGON] with AccessRights set to [WriteMessage]. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2017-12-04 18:45:48.949 WARN  NServiceBus.QueuePermissions Queue [private$\NEC.GeneralAgent.Publisher.TimeoutsDispatcher] is running with [Everyone] with AccessRights set to [GenericWrite]. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2017-12-04 18:45:48.954 WARN  NServiceBus.QueuePermissions Queue [private$\NEC.GeneralAgent.Publisher.TimeoutsDispatcher] is running with [NT AUTHORITY\ANONYMOUS LOGON] with AccessRights set to [WriteMessage]. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2017-12-04 18:45:48.958 WARN  NServiceBus.QueuePermissions Queue [private$\NEC.GeneralAgent.Publisher.Retries] is running with [Everyone] with AccessRights set to [GenericWrite]. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2017-12-04 18:45:48.961 WARN  NServiceBus.QueuePermissions Queue [private$\NEC.GeneralAgent.Publisher.Retries] is running with [NT AUTHORITY\ANONYMOUS LOGON] with AccessRights set to [WriteMessage]. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2017-12-04 18:45:48.965 WARN  NServiceBus.QueuePermissions Queue [private$\NEC.GeneralAgent.Publisher] is running with [Everyone] with AccessRights set to [GenericWrite]. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2017-12-04 18:45:48.969 WARN  NServiceBus.QueuePermissions Queue [private$\NEC.GeneralAgent.Publisher] is running with [NT AUTHORITY\ANONYMOUS LOGON] with AccessRights set to [WriteMessage]. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2017-12-04 18:45:48.973 INFO  NServiceBus.PerformanceCounterHelper NServiceBus performance counter for '# of msgs pulled from the input queue /sec' is not set up correctly. To rectify this problem, consult the NServiceBus performance counters documentation.
+2017-12-04 18:45:48.974 INFO  NServiceBus.PerformanceCounterHelper NServiceBus performance counter for '# of msgs successfully processed / sec' is not set up correctly. To rectify this problem, consult the NServiceBus performance counters documentation.
+2017-12-04 18:45:48.976 INFO  NServiceBus.PerformanceCounterHelper NServiceBus performance counter for '# of msgs failures / sec' is not set up correctly. To rectify this problem, consult the NServiceBus performance counters documentation.
+2017-12-04 18:45:50.170 INFO  NServiceBus.SubscriptionReceiverBehavior Subscribe from NEC.GeneralAgent.Subscriber@RIPANPC on message type Lateetud.NServiceBus.Common.Models.NECGeneralAgent.NECGeneralAgent, Lateetud.NServiceBus.Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+2017-12-04 18:45:50.170 INFO  NServiceBus.SubscriptionReceiverBehavior Subscribe from NEC.GeneralAgent.Subscriber@RIPANPC on message type Lateetud.NServiceBus.Common.Models.NECGeneralAgent.NECGeneralAgent, Lateetud.NServiceBus.Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+2017-12-04 18:45:50.335 INFO  NServiceBus.Unicast.UnicastBus Initiating shutdown.
+2017-12-04 18:45:51.296 INFO  NServiceBus.Unicast.UnicastBus Shutdown complete.
+2017-12-04 21:08:46.195 INFO  DefaultFactory Logging to 'E:\OfficeWork\ResearchNServiceBus\Research.Lateetud.NServiceBus\Lateetud.NServiceBus\App_Data\' with level Info
+2017-12-04 21:08:46.367 INFO  NServiceBus.LicenseManager Selected active license from HKEY_LOCAL_MACHINE\SOFTWARE\ParticularSoftware
+License Expiration: 12 December 2017
+
+2017-12-04 21:08:46.440 INFO  NServiceBus.Persistence.Sql.Installer Executing 'E:\OfficeWork\ResearchNServiceBus\Research.Lateetud.NServiceBus\Lateetud.NServiceBus\bin\NServiceBus.Persistence.Sql\MsSqlServer\Subscription_Create.sql'
+2017-12-04 21:08:46.473 INFO  NServiceBus.Persistence.Sql.Installer Executing 'E:\OfficeWork\ResearchNServiceBus\Research.Lateetud.NServiceBus\Lateetud.NServiceBus\bin\NServiceBus.Persistence.Sql\MsSqlServer\Timeout_Create.sql'
+2017-12-04 21:08:46.509 INFO  NServiceBus.PerformanceMonitorUsersInstaller Did not attempt to add user 'IIS APPPOOL\LateetudNServiceBus' to group 'Performance Monitor Users' since the process is not running with elevated privileges. Processing will continue. To manually perform this action, run the following command from an admin console:
+net localgroup "Performance Monitor Users" "IIS APPPOOL\LateetudNServiceBus" /add
+2017-12-04 21:08:46.581 WARN  NServiceBus.QueuePermissions Queue [private$\error] is running with [Everyone] with AccessRights set to [GenericWrite]. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2017-12-04 21:08:46.584 WARN  NServiceBus.QueuePermissions Queue [private$\error] is running with [NT AUTHORITY\ANONYMOUS LOGON] with AccessRights set to [WriteMessage]. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2017-12-04 21:08:46.589 WARN  NServiceBus.QueuePermissions Queue [private$\NEC.GeneralAgent.Publisher.Timeouts] is running with [Everyone] with AccessRights set to [GenericWrite]. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2017-12-04 21:08:46.591 WARN  NServiceBus.QueuePermissions Queue [private$\NEC.GeneralAgent.Publisher.Timeouts] is running with [NT AUTHORITY\ANONYMOUS LOGON] with AccessRights set to [WriteMessage]. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2017-12-04 21:08:46.594 WARN  NServiceBus.QueuePermissions Queue [private$\NEC.GeneralAgent.Publisher.TimeoutsDispatcher] is running with [Everyone] with AccessRights set to [GenericWrite]. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2017-12-04 21:08:46.595 WARN  NServiceBus.QueuePermissions Queue [private$\NEC.GeneralAgent.Publisher.TimeoutsDispatcher] is running with [NT AUTHORITY\ANONYMOUS LOGON] with AccessRights set to [WriteMessage]. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2017-12-04 21:08:46.598 WARN  NServiceBus.QueuePermissions Queue [private$\NEC.GeneralAgent.Publisher.Retries] is running with [Everyone] with AccessRights set to [GenericWrite]. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2017-12-04 21:08:46.600 WARN  NServiceBus.QueuePermissions Queue [private$\NEC.GeneralAgent.Publisher.Retries] is running with [NT AUTHORITY\ANONYMOUS LOGON] with AccessRights set to [WriteMessage]. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2017-12-04 21:08:46.602 WARN  NServiceBus.QueuePermissions Queue [private$\NEC.GeneralAgent.Publisher] is running with [Everyone] with AccessRights set to [GenericWrite]. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2017-12-04 21:08:46.604 WARN  NServiceBus.QueuePermissions Queue [private$\NEC.GeneralAgent.Publisher] is running with [NT AUTHORITY\ANONYMOUS LOGON] with AccessRights set to [WriteMessage]. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2017-12-04 21:08:46.606 INFO  NServiceBus.PerformanceCounterHelper NServiceBus performance counter for '# of msgs pulled from the input queue /sec' is not set up correctly. To rectify this problem, consult the NServiceBus performance counters documentation.
+2017-12-04 21:08:46.607 INFO  NServiceBus.PerformanceCounterHelper NServiceBus performance counter for '# of msgs successfully processed / sec' is not set up correctly. To rectify this problem, consult the NServiceBus performance counters documentation.
+2017-12-04 21:08:46.607 INFO  NServiceBus.PerformanceCounterHelper NServiceBus performance counter for '# of msgs failures / sec' is not set up correctly. To rectify this problem, consult the NServiceBus performance counters documentation.
+2017-12-04 21:08:48.569 INFO  NServiceBus.Unicast.UnicastBus Initiating shutdown.
+2017-12-04 21:08:49.254 INFO  NServiceBus.SubscriptionReceiverBehavior Subscribe from NEC.GeneralAgent.Subscriber@RIPANPC on message type Lateetud.NServiceBus.Common.Models.NECGeneralAgent.NECGeneralAgent, Lateetud.NServiceBus.Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+2017-12-04 21:08:50.369 INFO  NServiceBus.Unicast.UnicastBus Shutdown complete.
+2017-12-04 21:10:16.071 INFO  NServiceBus.LicenseManager Selected active license from HKEY_LOCAL_MACHINE\SOFTWARE\ParticularSoftware
+License Expiration: 12 December 2017
+
+2017-12-04 21:10:16.073 INFO  NServiceBus.Persistence.Sql.Installer Executing 'E:\OfficeWork\ResearchNServiceBus\Research.Lateetud.NServiceBus\Lateetud.NServiceBus\bin\NServiceBus.Persistence.Sql\MsSqlServer\Subscription_Create.sql'
+2017-12-04 21:10:16.074 INFO  NServiceBus.Persistence.Sql.Installer Executing 'E:\OfficeWork\ResearchNServiceBus\Research.Lateetud.NServiceBus\Lateetud.NServiceBus\bin\NServiceBus.Persistence.Sql\MsSqlServer\Timeout_Create.sql'
+2017-12-04 21:10:16.077 INFO  NServiceBus.PerformanceMonitorUsersInstaller Did not attempt to add user 'IIS APPPOOL\LateetudNServiceBus' to group 'Performance Monitor Users' since the process is not running with elevated privileges. Processing will continue. To manually perform this action, run the following command from an admin console:
+net localgroup "Performance Monitor Users" "IIS APPPOOL\LateetudNServiceBus" /add
+2017-12-04 21:10:16.091 WARN  NServiceBus.QueuePermissions Queue [private$\error] is running with [Everyone] with AccessRights set to [GenericWrite]. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2017-12-04 21:10:16.094 WARN  NServiceBus.QueuePermissions Queue [private$\error] is running with [NT AUTHORITY\ANONYMOUS LOGON] with AccessRights set to [WriteMessage]. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2017-12-04 21:10:16.096 WARN  NServiceBus.QueuePermissions Queue [private$\NEC.GeneralAgent.Publisher.Timeouts] is running with [Everyone] with AccessRights set to [GenericWrite]. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2017-12-04 21:10:16.098 WARN  NServiceBus.QueuePermissions Queue [private$\NEC.GeneralAgent.Publisher.Timeouts] is running with [NT AUTHORITY\ANONYMOUS LOGON] with AccessRights set to [WriteMessage]. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2017-12-04 21:10:16.102 WARN  NServiceBus.QueuePermissions Queue [private$\NEC.GeneralAgent.Publisher.TimeoutsDispatcher] is running with [Everyone] with AccessRights set to [GenericWrite]. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2017-12-04 21:10:16.104 WARN  NServiceBus.QueuePermissions Queue [private$\NEC.GeneralAgent.Publisher.TimeoutsDispatcher] is running with [NT AUTHORITY\ANONYMOUS LOGON] with AccessRights set to [WriteMessage]. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2017-12-04 21:10:16.107 WARN  NServiceBus.QueuePermissions Queue [private$\NEC.GeneralAgent.Publisher.Retries] is running with [Everyone] with AccessRights set to [GenericWrite]. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2017-12-04 21:10:16.109 WARN  NServiceBus.QueuePermissions Queue [private$\NEC.GeneralAgent.Publisher.Retries] is running with [NT AUTHORITY\ANONYMOUS LOGON] with AccessRights set to [WriteMessage]. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2017-12-04 21:10:16.112 WARN  NServiceBus.QueuePermissions Queue [private$\NEC.GeneralAgent.Publisher] is running with [Everyone] with AccessRights set to [GenericWrite]. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2017-12-04 21:10:16.113 WARN  NServiceBus.QueuePermissions Queue [private$\NEC.GeneralAgent.Publisher] is running with [NT AUTHORITY\ANONYMOUS LOGON] with AccessRights set to [WriteMessage]. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2017-12-04 21:10:16.113 INFO  NServiceBus.PerformanceCounterHelper NServiceBus performance counter for '# of msgs pulled from the input queue /sec' is not set up correctly. To rectify this problem, consult the NServiceBus performance counters documentation.
+2017-12-04 21:10:16.114 INFO  NServiceBus.PerformanceCounterHelper NServiceBus performance counter for '# of msgs successfully processed / sec' is not set up correctly. To rectify this problem, consult the NServiceBus performance counters documentation.
+2017-12-04 21:10:16.114 INFO  NServiceBus.PerformanceCounterHelper NServiceBus performance counter for '# of msgs failures / sec' is not set up correctly. To rectify this problem, consult the NServiceBus performance counters documentation.
+2017-12-04 21:10:16.118 INFO  NServiceBus.SubscriptionReceiverBehavior Subscribe from NEC.GeneralAgent.Subscriber@RIPANPC on message type Lateetud.NServiceBus.Common.Models.NECGeneralAgent.NECGeneralAgent, Lateetud.NServiceBus.Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+2017-12-04 21:10:16.159 INFO  NServiceBus.Unicast.UnicastBus Initiating shutdown.
+2017-12-04 21:10:16.169 INFO  NServiceBus.Unicast.UnicastBus Shutdown complete.
