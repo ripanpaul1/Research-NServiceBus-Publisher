@@ -4,6 +4,7 @@ using System.Configuration;
 using Lateetud.NServiceBus.Common;
 using Lateetud.NServiceBus.Common.Models.NECGeneralAgent;
 using Lateetud.NServiceBus.DAL;
+using Lateetud.NServiceBus.DAL.NECGeneralAgent;
 using System;
 
 namespace Lateetud.NServiceBus.api
@@ -18,7 +19,7 @@ namespace Lateetud.NServiceBus.api
     // [System.Web.Script.Services.ScriptService]
     public class NECGeneralAgentService : System.Web.Services.WebService
     {
-        MsmqSqlDBConfiguration msmqsqldbconfig = new MsmqSqlDBConfiguration(ConfigurationManager.ConnectionStrings["SqlPersistence"].ConnectionString);
+        MsmqSqlDBConfiguration msmqsqldbconfig = new MsmqSqlDBConfiguration(ConfigurationManager.ConnectionStrings["SqlPersistence"].ConnectionString, 1, 5);
 
         //[WebMethod]
         //public string CreatePublisherQueues()
@@ -38,8 +39,7 @@ namespace Lateetud.NServiceBus.api
                 var id = "ga-" + Guid.NewGuid();
                 msmqsqldbconfig.PublishedToBus(endpointConfiguration, new NECGeneralAgent { MessageID = id, Message = message });
 
-                BaseManager manager = new BaseManager();
-                manager.Insert(id, message);
+                new NECGeneralAgentManager().Insert(id, message);
 
                 return id;
             }
@@ -54,8 +54,7 @@ namespace Lateetud.NServiceBus.api
         {
             try
             {
-                BaseManager bm = new BaseManager();
-                return bm.Select(ID).Status;
+                return ((GeneralAgentByGeneralAgentID_Select_Result) new NECGeneralAgentManager().Select(ID)).Status;
             }
             catch (Exception err)
             {
