@@ -77,6 +77,8 @@
     <Reference Include="System.Data" />
     <Reference Include="System.Core" />
     <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Messaging" />
+    <Reference Include="System.Transactions" />
     <Reference Include="System.Web.Extensions" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Drawing" />
@@ -215,6 +217,12 @@
       <DependentUpon>About.aspx</DependentUpon>
     </Compile>
     <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="Classes\MsmqReturnToSourceQueue\ErrorManager.cs" />
+    <Compile Include="Classes\MsmqReturnToSourceQueue\HeaderInfo.cs" />
+    <Compile Include="Classes\MsmqReturnToSourceQueue\Headers.cs" />
+    <Compile Include="Classes\MsmqReturnToSourceQueue\MessageIntentEnum.cs" />
+    <Compile Include="Classes\MsmqReturnToSourceQueue\MsmqAddress.cs" />
+    <Compile Include="Classes\MsmqReturnToSourceQueue\MsmqUtilities.cs" />
     <Compile Include="Contact.aspx.cs">
       <DependentUpon>Contact.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
