@@ -5,6 +5,7 @@ using Lateetud.NServiceBus.Common;
 using Lateetud.NServiceBus.Common.Models.Smart;
 using Lateetud.NServiceBus.DAL.Smart;
 using Lateetud.NServiceBus.DAL.ef;
+using Lateetud.NServiceBus.Classes.MsmqReturnToSourceQueue;
 
 namespace Lateetud.NServiceBus.api
 {
@@ -19,6 +20,16 @@ namespace Lateetud.NServiceBus.api
     public class SmartService : System.Web.Services.WebService
     {
         MsmqSqlDBConfiguration msmqsqldbconfig = new MsmqSqlDBConfiguration(ConfigurationManager.ConnectionStrings["Lateetud.db.conn"].ConnectionString, "smart.error", 1, 5);
+
+        [WebMethod]
+        public string MessagesRestoreToSourceQueue()
+        {
+            var errorManager = new ErrorManager();
+            errorManager.InputQueue = MsmqAddress.Parse("smart.error");
+            errorManager.ReturnAll();
+
+            return "Message pick from error queue and restore to source queue";
+        }
 
         [WebMethod]
         public string CreatePublisherQueues()
