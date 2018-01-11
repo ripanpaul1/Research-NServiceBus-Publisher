@@ -13,25 +13,25 @@ namespace Lateetud.NServiceBus
         {
             if(!IsPostBack)
             {
-                StartEndpoint.InitializeEndpoint("testqueue.Publisher").GetAwaiter().GetResult();
+                //StartEndpoint.InitializeEndpoint("testqueue.Publisher").GetAwaiter().GetResult();
             }
         }
 
         protected void btnPublish_Click(object sender, EventArgs e)
         {
-            MessagePublishedToBue(txt.Text).GetAwaiter().GetResult();
+            //MessagePublishedToBue(txt.Text).GetAwaiter().GetResult();
         }
 
-        public async Task MessagePublishedToBue(string message)
-        {
-            object rowmessage = new TestMessage
-            {
-                Message = message
-            };
+        //public async Task MessagePublishedToBue(string message)
+        //{
+        //    object rowmessage = new TestMessage
+        //    {
+        //        Message = message
+        //    };
 
-            await StartEndpoint.endpointInstance.Publish(rowmessage, new PublishOptions())
-                .ConfigureAwait(false);
-        }
+        //    await StartEndpoint.endpointInstance.Publish(rowmessage, new PublishOptions())
+        //        .ConfigureAwait(false);
+        //}
 
 
     }

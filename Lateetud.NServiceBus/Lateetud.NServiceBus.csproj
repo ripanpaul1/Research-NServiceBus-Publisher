@@ -150,7 +150,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="About.aspx" />
-    <Content Include="api\NECGeneralAgentService.asmx" />
+    <Content Include="api\SmartService.asmx" />
     <Content Include="Contact.aspx" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
@@ -204,8 +204,8 @@
     <Content Include="Site.Mobile.Master" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="api\NECGeneralAgentService.asmx.cs">
-      <DependentUpon>NECGeneralAgentService.asmx</DependentUpon>
+    <Compile Include="api\SmartService.asmx.cs">
+      <DependentUpon>SmartService.asmx</DependentUpon>
       <SubType>Component</SubType>
     </Compile>
     <Compile Include="App_Start\BundleConfig.cs" />
@@ -266,7 +266,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="handlers\" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
