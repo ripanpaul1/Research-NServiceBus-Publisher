@@ -192,4 +192,3 @@ E:\OfficeWork\ResearchNServiceBus\Research.Lateetud.NServiceBus\Lateetud.NServic
 E:\OfficeWork\ResearchNServiceBus\Research.Lateetud.NServiceBus\Lateetud.NServiceBus\obj\Debug\Lateetud.NServiceBus.csproj.CoreCompileInputs.cache
 E:\OfficeWork\ResearchNServiceBus\Research.Lateetud.NServiceBus\Lateetud.NServiceBus\obj\Debug\Lateetud.NServiceBus.dll
 E:\OfficeWork\ResearchNServiceBus\Research.Lateetud.NServiceBus\Lateetud.NServiceBus\obj\Debug\Lateetud.NServiceBus.pdb
-E:\OfficeWork\ResearchNServiceBus\Research.Lateetud.NServiceBus\Lateetud.NServiceBus\obj\Debug\Lateetud.NServiceBus.csprojResolveAssemblyReference.cache
