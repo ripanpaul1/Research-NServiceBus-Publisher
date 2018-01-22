@@ -150,6 +150,7 @@ E:\OfficeWork\ResearchNServiceBus\Research.Lateetud.NServiceBus\Lateetud.NServic
 E:\OfficeWork\ResearchNServiceBus\Research.Lateetud.NServiceBus\Lateetud.NServiceBus\bin\AspNet.ScriptManager.jQuery.dll
 E:\OfficeWork\ResearchNServiceBus\Research.Lateetud.NServiceBus\Lateetud.NServiceBus\bin\EntityFramework.dll
 E:\OfficeWork\ResearchNServiceBus\Research.Lateetud.NServiceBus\Lateetud.NServiceBus\bin\EntityFramework.SqlServer.dll
+E:\OfficeWork\ResearchNServiceBus\Research.Lateetud.NServiceBus\Lateetud.NServiceBus\bin\Excel.dll
 E:\OfficeWork\ResearchNServiceBus\Research.Lateetud.NServiceBus\Lateetud.NServiceBus\bin\Lateetud.NServiceBus.Common.dll
 E:\OfficeWork\ResearchNServiceBus\Research.Lateetud.NServiceBus\Lateetud.NServiceBus\bin\Lateetud.NServiceBus.DAL.dll
 E:\OfficeWork\ResearchNServiceBus\Research.Lateetud.NServiceBus\Lateetud.NServiceBus\bin\Microsoft.AI.Agent.Intercept.dll
@@ -172,6 +173,7 @@ E:\OfficeWork\ResearchNServiceBus\Research.Lateetud.NServiceBus\Lateetud.NServic
 E:\OfficeWork\ResearchNServiceBus\Research.Lateetud.NServiceBus\Lateetud.NServiceBus\bin\WebGrease.dll
 E:\OfficeWork\ResearchNServiceBus\Research.Lateetud.NServiceBus\Lateetud.NServiceBus\bin\EntityFramework.xml
 E:\OfficeWork\ResearchNServiceBus\Research.Lateetud.NServiceBus\Lateetud.NServiceBus\bin\EntityFramework.SqlServer.xml
+E:\OfficeWork\ResearchNServiceBus\Research.Lateetud.NServiceBus\Lateetud.NServiceBus\bin\Excel.xml
 E:\OfficeWork\ResearchNServiceBus\Research.Lateetud.NServiceBus\Lateetud.NServiceBus\bin\Lateetud.NServiceBus.Common.pdb
 E:\OfficeWork\ResearchNServiceBus\Research.Lateetud.NServiceBus\Lateetud.NServiceBus\bin\Lateetud.NServiceBus.DAL.pdb
 E:\OfficeWork\ResearchNServiceBus\Research.Lateetud.NServiceBus\Lateetud.NServiceBus\bin\Lateetud.NServiceBus.DAL.dll.config
@@ -192,4 +194,3 @@ E:\OfficeWork\ResearchNServiceBus\Research.Lateetud.NServiceBus\Lateetud.NServic
 E:\OfficeWork\ResearchNServiceBus\Research.Lateetud.NServiceBus\Lateetud.NServiceBus\obj\Debug\Lateetud.NServiceBus.csproj.CoreCompileInputs.cache
 E:\OfficeWork\ResearchNServiceBus\Research.Lateetud.NServiceBus\Lateetud.NServiceBus\obj\Debug\Lateetud.NServiceBus.dll
 E:\OfficeWork\ResearchNServiceBus\Research.Lateetud.NServiceBus\Lateetud.NServiceBus\obj\Debug\Lateetud.NServiceBus.pdb
-E:\OfficeWork\ResearchNServiceBus\Research.Lateetud.NServiceBus\Lateetud.NServiceBus\obj\Debug\Lateetud.NServiceBus.csprojResolveAssemblyReference.cache
