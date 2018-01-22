@@ -1,0 +1,27 @@
+﻿@model IEnumerable<Lateetud.NServiceBus.ServiceControl.Models.MessageDetails>
+@using GridMvc.Html
+
+@{
+    ViewBag.Title = "Service Control";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>@ViewBag.Title</h2>
+
+<div>
+    
+    @Html.Grid(Model).Columns(columns =>
+    {
+        columns.Add()
+                .Encoded(false)
+                .Sanitized(false)
+                .SetWidth(200)
+                .RenderValueAs(d =>
+                @<b>
+                    @Html.ActionLink("Send to source queue", "Index", new { mid = 1 })
+                </b>);
+        columns.Add(c => c.NServiceBusMessageId).Titled("NServiceBus Message ID");
+        columns.Add(c => c.QueueMessageId).Titled("Queue Message ID");
+    }).Sortable(true).WithPaging(3)
+
+</div>
